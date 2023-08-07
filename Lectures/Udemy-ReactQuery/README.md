@@ -49,7 +49,7 @@ Redux로 서버의 데이터를 관리하는 경우 React Query는 앱에서 Red
 ### 📌 강의 구성
 
 * [쿼리 생성 및 로딩 / 에러 상태](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-ReactQuery/Study/C01)
-
+* [페이지 네이션 / 프리패칭과 변이](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-ReactQuery/Study/C012)
 
 
 [`강의 링크`]: https://www.udemy.com/home/my-courses/learning/
