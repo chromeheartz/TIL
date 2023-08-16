@@ -1,10 +1,10 @@
-export function Person({ data }) {
+export function Person({ name, hairColor, eyeColor }) {
   return (
     <li>
-      {data.name}
+      {name}
       <ul>
-        <li>hair: {data.hairColor}</li>
-        <li>eyes: {data.eyeColor}</li>
+        <li>hair: {hairColor}</li>
+        <li>eyes: {eyeColor}</li>
       </ul>
     </li>
   );
