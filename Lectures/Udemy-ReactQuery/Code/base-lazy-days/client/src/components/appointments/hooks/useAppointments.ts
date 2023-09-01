@@ -65,8 +65,6 @@ export function useAppointments(): UseAppointments {
     );
   }, [queryClient, monthYear]);
 
-  console.log(showAll);
-
   const fallback = {};
   const { data: appointments = fallback } = useQuery(
     [queryKeys.appointments, monthYear.year, monthYear.month],
