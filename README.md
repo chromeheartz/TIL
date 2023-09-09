@@ -3,7 +3,8 @@
 
 ### 📌 Lectures
 
-* [[Udemy]React Query: React로 서버 상태 관리하기](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-ReactQuery)
+* [[React Query]: React로 서버 상태 관리하기](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-ReactQuery)
+* [[Algorithm]: JavaScript 알고리즘 & 자료구조](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-Algorithm)
 
 ### 📌 Study
 
