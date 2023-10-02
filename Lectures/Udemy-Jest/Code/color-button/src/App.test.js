@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import App from './App';
 
 test('button has correct initial color', () => {
@@ -8,8 +8,18 @@ test('button has correct initial color', () => {
 
   // 배경색이 빨간색인지 확인
   expect(colorButton).toHaveStyle({ backgroundColor: 'red' })
-});
-// test('button has correct initial text', () => {});
-test('button turns blue when clicked', () => {
 
+  // click button
+  fireEvent.click(colorButton);
+
+  // 배경이 파란색인지 확인
+  expect(colorButton).toHaveStyle({ backgroundColor: 'blue' });
+
+  // 텍스트 변경
+  expect(colorButton).toHaveTextContent('Change to Red');
 });
+
+// test('button turns blue when clicked', () => {
+//   render(<App />)
+//   const colorButton = screen.getByRole('button', { name: 'Change to Blue' })
+// });
