@@ -19,7 +19,13 @@ test('button has correct initial color', () => {
   expect(colorButton).toHaveTextContent('Change to red');
 });
 
-// test('button turns blue when clicked', () => {
-//   render(<App />)
-//   const colorButton = screen.getByRole('button', { name: 'Change to Blue' })
-// });
+test('initial conditions', () => {
+  render(<App />);
+  // 버튼이 활성화 상태로 시작하는지 ?
+  const colorButton = screen.getByRole('button', { name: 'Change to blue' });
+  expect(colorButton).toBeEnabled();
+
+  // 체크박스가 체크가 안된 상태로 시작하는지 ?
+  const checkbox = screen.getByRole('checkbox');
+  expect(checkbox).not.toBeChecked()
+});
