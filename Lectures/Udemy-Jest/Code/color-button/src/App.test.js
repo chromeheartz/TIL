@@ -4,7 +4,7 @@ import App from './App';
 test('button has correct initial color', () => {
   render(<App />);
   // 버튼 여부 / 텍스트가 'Change to Blue'인지 확인
-  const colorButton = screen.getByRole('button', { name: 'Change to Blue' })
+  const colorButton = screen.getByRole('button', { name: 'Change to blue' })
 
   // 배경색이 빨간색인지 확인
   expect(colorButton).toHaveStyle({ backgroundColor: 'red' })
@@ -16,7 +16,7 @@ test('button has correct initial color', () => {
   expect(colorButton).toHaveStyle({ backgroundColor: 'blue' });
 
   // 텍스트 변경
-  expect(colorButton).toHaveTextContent('Change to Red');
+  expect(colorButton).toHaveTextContent('Change to red');
 });
 
 // test('button turns blue when clicked', () => {
