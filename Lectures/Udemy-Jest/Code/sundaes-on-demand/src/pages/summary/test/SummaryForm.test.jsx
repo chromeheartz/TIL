@@ -35,7 +35,7 @@ test("popover responds to hover", async () => {
 
   // popover starts out hidden
   const nullPopover = screen.queryByText(
-    /no ice cream will be actually be delivered/i
+    /No ice cream will actually be delivered/i
   );
   expect(nullPopover).not.toBeInTheDocument();
 
@@ -43,7 +43,7 @@ test("popover responds to hover", async () => {
   const termsAndConditions = screen.getByText(/terms and conditions/i);
   await user.hover(termsAndConditions);
   const popover = screen.queryByText(
-    /no ice cream will be actually be delivered/i
+    /No ice cream will actually be delivered/i
   );
   expect(popover).toBeInTheDocument();
 
