@@ -6,6 +6,7 @@
 * [[REACT-QUERY]: React로 서버 상태 관리하기](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-ReactQuery)
 * [[ALGORITHM]: JavaScript 알고리즘 & 자료구조](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-Algorithm)
 * [[JEST]: Jest 및 테스팅 라이브러리로 React 테스트하기](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-Jest)
+* [[REDUX vs MOBX]: Redux vs MobX]()
 
 ### 📌 Study
 
