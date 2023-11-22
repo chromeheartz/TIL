@@ -1,23 +1,8 @@
-const reducer = (prevState, action) => {
-  switch (action.type) {
-    case "LOG_IN":
-      return {
-        ...prevState,
-        user: action.data,
-      };
-    case "LOG_OUT":
-      return {
-        ...prevState,
-        user: null,
-      };
-    case "ADD_POST":
-      return {
-        ...prevState,
-        posts: [...prevState.posts, action.data],
-      };
-    default:
-      return prevState;
-  }
-};
+const { combineReducers } = require("redux");
+const userReducer = require("./user");
+const postReducer = require("./post");
 
-module.exports = reducer;
+module.exports = combineReducers({
+  user: userReducer,
+  posts: postReducer,
+});
