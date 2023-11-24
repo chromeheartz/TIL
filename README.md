@@ -1,19 +1,46 @@
 # TIL
 🏴 Today I Learned
 
-### 📌 Lectures
+# 📌 Lectures
 
 * [[REACT-QUERY]: React로 서버 상태 관리하기](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-ReactQuery)
 * [[ALGORITHM]: JavaScript 알고리즘 & 자료구조](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-Algorithm)
 * [[JEST]: Jest 및 테스팅 라이브러리로 React 테스트하기](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-Jest)
 * [[REDUX vs MOBX]: Redux vs MobX](https://github.com/chromeheartz/TIL/tree/main/Lectures/Inflearn-ReduxVSMobX)
 
-### 📌 Study
+# 📌 Study
 
 <!--
 <details>
   <summary> ✅ Finders </summary>
 -->
+
+## Docker
+* [Docker란?](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-06.md)
+* [Docker에서 Images 와 Containers](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-10.md)
+* [Dockerfile, RUN 과 CMD](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-14.md)
+* [이미지와 컨테이너가 작동하는 방식](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-15.md)
+* [이미지 레이어의 이해](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-17.md)
+* [컨테이터 중지 & 재시작](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-18.md)
+* [Attached 와 Detached 컨테이너 이해](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-19.md)
+* [인터렉티브 모드로 들어가기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-20.md)
+* [이미지, 컨테이너 관리 및 삭제하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-21.md)
+* [중지된 컨테이너 자동 제거하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-22.md)
+* [작동 배경 살펴보기 : 이미지 검사](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-23.md)
+* [컨테이너에 컨테이너로 부터 파일 복사하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-24.md)
+* [컨테이너와 이미지에 이름 지정 & 태그 지정하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-25.md)
+* [이미지 공유하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-26.md)
+* [DockerHub에 이미지 푸시](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-27.md)
+* [공유 이미지 가져오기(pull) & 사용하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-28.md)
+* [임시 애플리케이션 데이터 & 영구 애플리케이션 데이터](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-29.md)
+* [데모 앱 구축 & 이해](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-30.md)
+* [컨테이너의 데이터 손실 문제 이해하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-31.md)
+* [볼륨이란?](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-01.md)
+* [도커가 제어하는 볼륨 만들기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-02.md)
+* [명명된 볼륨으로 구조하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-03.md)
+* [바인드 마운트 시작하기(코드 공유)](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-04.md)
+
+<br>
 
 ## JPA
 * [SQL 중심적인 개발의 문제점](https://github.com/Djangowon/TIL/blob/dcb6e3062afe9a9bf8afdf4545ff80496acd6de3/Java/JPA/SQL%20%EC%A4%91%EC%8B%AC%EC%A0%81%EC%9D%B8%20%EA%B0%9C%EB%B0%9C%EC%9D%98%20%EB%AC%B8%EC%A0%9C%EC%A0%90.md/)
@@ -34,17 +61,6 @@
 
 <br>
 
-## Docker
-* [Docker란?](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-06.md)
-* [Docker에서 Images 와 Containers](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-10.md)
-* [Dockerfile, RUN 과 CMD](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-14.md)
-* [이미지와 컨테이너가 작동하는 방식](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-15.md)
-* [이미지 레이어의 이해](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-17.md)
-* [컨테이터 중지 & 재시작](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-18.md)
-* [Attached 와 Detached 컨테이너 이해](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-19.md)
-* [인터렉티브 모드로 들어가기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-20.md)
-* [이미지, 컨테이너 관리 및 삭제하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-21.md)
-* [중지된 컨테이너 자동 제거하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-22.md)
 
 <br>
 <!--
