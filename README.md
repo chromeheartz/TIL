@@ -43,6 +43,8 @@
 * [NodeJS 특화 조정: 컨테이너에서 Nodemon 사용하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-06.md)
 * [볼륨 & 마운트 요약](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-07.md)
 * [읽기 전용 볼륨](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-08.md)
+* [도커 볼륨 관리하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-09.md)
+* [COPY 사용 vs 바인드 마운트 사용](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-10.md)
 
 <br>
 
