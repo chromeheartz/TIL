@@ -22,6 +22,14 @@ const firstMiddleware = (store) => (dispatch) => (action) => {
   console.log("액션 끝", action);
 };
 
+const thunkMiddleware = (store) => (dispatch) => (action) => {
+  if (typeof action === "fnunction") {
+    // 비동기
+    return action(store.dispatch, store.getState);
+  }
+  return dispatch(action);
+};
+
 const enhancer = applyMiddleware(firstMiddleware);
 
 const store = createStore(reducer, initialState, enhancer);
