@@ -16,29 +16,29 @@ const initialState = {
   followers: [],
 };
 
-const firstMiddleware = (store) => (dispatch) => (action) => {
+const firstMiddleware = (store) => (next) => (action) => {
   console.log("액션 로깅", action);
-  dispatch(action);
+  next(action);
   console.log("액션 끝", action);
 };
 
-const thunkMiddleware = (store) => (dispatch) => (action) => {
-  if (typeof action === "fnunction") {
+const thunkMiddleware = (store) => (next) => (action) => {
+  if (typeof action === "function") {
     // 비동기
     return action(store.dispatch, store.getState);
   }
-  return dispatch(action);
+  return next(action);
 };
 
-const enhancer = applyMiddleware(firstMiddleware);
+const enhancer = applyMiddleware(firstMiddleware, thunkMiddleware);
 
 const store = createStore(reducer, initialState, enhancer);
 
-store.subscribe(() => {
-  console.log("changed");
-});
+// store.subscribe(() => {
+//   console.log("changed");
+// });
 
-console.log("init", store.getState());
+// console.log("init", store.getState());
 
 store.dispatch(
   logIn({
@@ -50,24 +50,24 @@ store.dispatch(
 
 console.log("login", store.getState());
 
-store.dispatch(
-  addPost({
-    userId: 1,
-    id: 1,
-    content: "Hello Redux",
-  })
-);
+// store.dispatch(
+//   addPost({
+//     userId: 1,
+//     id: 1,
+//     content: "Hello Redux",
+//   })
+// );
 
-store.dispatch(
-  addPost({
-    userId: 1,
-    id: 2,
-    content: "Hello Redux02",
-  })
-);
+// store.dispatch(
+//   addPost({
+//     userId: 1,
+//     id: 2,
+//     content: "Hello Redux02",
+//   })
+// );
 
-console.log("addPost", store.getState());
+// console.log("addPost", store.getState());
 
-store.dispatch(logOut());
+// store.dispatch(logOut());
 
-console.log("logout", store.getState());
+// console.log("logout", store.getState());
