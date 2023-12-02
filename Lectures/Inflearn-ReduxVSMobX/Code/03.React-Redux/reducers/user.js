@@ -9,7 +9,6 @@ const userReducer = (prevState = initialState, action) => {
     case "LOG_IN_REQUEST":
       return {
         ...prevState,
-        data: null,
         isLoggingIn: true,
       };
     case "LOG_IN_SUCCESS":
