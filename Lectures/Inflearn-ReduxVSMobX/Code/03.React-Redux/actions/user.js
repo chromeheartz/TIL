@@ -18,10 +18,14 @@ const logIn = (data) => {
   };
 };
 
+const LOG_IN_REQUEST = "LOG_IN_REQUEST";
+const LOG_IN_SUCCESS = "LOG_IN_SUCCESS";
+const LOG_IN_FAILURE = "LOG_IN_FAILURE";
+
 const logInRequest = (data) => {
   // action creator
   return {
-    type: "LOG_IN_REQUEST",
+    type: LOG_IN_REQUEST,
     data,
   };
 };
@@ -29,13 +33,13 @@ const logInRequest = (data) => {
 const logInSuccess = () => {
   // action creator
   return {
-    type: "LOG_IN_SUCCESS",
+    type: LOG_IN_SUCCESS,
   };
 };
 
 const logInFailure = (data) => {
   return {
-    type: "LOG_IN_FAILURE",
+    type: LOG_IN_FAILURE,
     data,
   };
 };
