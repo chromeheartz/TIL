@@ -30,10 +30,11 @@ const logInRequest = (data) => {
   };
 };
 
-const logInSuccess = () => {
+const logInSuccess = (data) => {
   // action creator
   return {
     type: LOG_IN_SUCCESS,
+    data,
   };
 };
 
