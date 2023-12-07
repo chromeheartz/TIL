@@ -45,6 +45,8 @@
 * [읽기 전용 볼륨](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-08.md)
 * [도커 볼륨 관리하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-09.md)
 * [COPY 사용 vs 바인드 마운트 사용](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-10.md)
+* [모든 것을 복사하진 마세요: dockerignore 파일 사용하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-11.md)
+* [환경 변수 & .env 파일 작업](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-12.md)
 
 <br>
 
