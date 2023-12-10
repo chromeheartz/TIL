@@ -4,16 +4,14 @@ import { logIn, logOut } from "./actions/user";
 
 class App {
   onClick = () => {
-    dispatch(
-      logIn({
-        id: "bibi",
-        password: "password",
-      })
-    );
+    this.props.dispatchLogIn({
+      id: "bibi",
+      password: "password",
+    });
   };
 
   onLogout = () => {
-    dispatch(logOut());
+    this.props.dispatchLogOut();
   };
 
   render() {
@@ -37,4 +35,14 @@ class App {
   }
 }
 
-export default connect()(App);
+const mapStateToProps = (state) => ({
+  user: state.user,
+  posts: state.posts,
+});
+
+const mapDispatchToProps = () => ({
+  dispatchLogin: (data) => dispatch(logIn(data)),
+  dispatchLogOut: () => dispatch(logOut()),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
