@@ -1,4 +1,4 @@
-const produce = require("immer");
+const { produce } = require("immer");
 
 const initialState = {
   isLoggingIn: false,
@@ -11,27 +11,18 @@ const userReducer = (prevState = initialState, action) => {
   return produce(prevState, (draft) => {
     switch (action.type) {
       case "LOG_IN_REQUEST":
-        return {
-          ...prevState,
-          isLoggingIn: true,
-        };
+        draft.data = null;
+        draft.isLoggingIn = true;
+        break;
       case "LOG_IN_SUCCESS":
-        return {
-          ...prevState,
-          data: action.data,
-          isLoggingIn: false,
-        };
+        draft.data = action.data;
+        draft.isLoggingIn = false;
+        break;
       case "LOG_IN_FAILURE":
-        return {
-          ...prevState,
-          data: null,
-          isLoggingIn: false,
-        };
+        draft.data = null;
+        draft.isLoggingIn = false;
       case "LOG_OUT":
-        return {
-          ...prevState,
-          data: null,
-        };
+        draft.data = null;
       default:
         return prevState;
     }

@@ -1,12 +1,12 @@
-import React from "react";
+import React, { Component } from "react";
 import { connect } from "react-redux";
-import { logIn, logOut } from "./actions/user";
+const { logIn, logOut } = require("./actions/user");
 
-class App {
+class App extends Component {
   onClick = () => {
     this.props.dispatchLogIn({
       id: "bibi",
-      password: "password",
+      password: "bibiboy",
     });
   };
 
@@ -19,11 +19,11 @@ class App {
     return (
       <div>
         {user.isLoggingIn ? (
-          <div>로그인 중</div> // 로그인 중
+          <div>로그인 중</div>
         ) : user.data ? (
-          <div>{user.data.nickname}</div> // 로그인 후
+          <div>{user.data.nickname}</div>
         ) : (
-          "로그인 해주세요" // 로그인 전
+          "로그인 해주세요."
         )}
         {!user.data ? (
           <button onClick={this.onClick}>로그인</button>
