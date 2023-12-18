@@ -54,6 +54,7 @@
 * [컨테이너간 통신](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-17.md)
 * [컨테이너 만들기 & 웹 통신](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-18.md)
 * [호스트 통신작업을 위한 컨테이너 만들기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-19.md)
+* [컨테이너 간 통신: 기본 솔루션](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-20.md)
 
 <br>
 
