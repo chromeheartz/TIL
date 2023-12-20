@@ -5,7 +5,6 @@ import { logIn, logOut } from "./actions/user";
 
 const App = () => {
   const user = useSelector((state) => state.user);
-  console.log(user);
   const dispatch = useDispatch();
   const onClick = useCallback(() => {
     dispatch(logInRequest(data)); // action creator
