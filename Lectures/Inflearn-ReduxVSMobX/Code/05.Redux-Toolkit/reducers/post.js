@@ -20,4 +20,4 @@ const postSlice = createSlice({
   extraReducers: {},
 });
 
-module.exports = postReducer;
+module.exports = postSlice;

@@ -3,6 +3,8 @@ import { useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { logIn, logOut } from "./actions/user";
 
+const userSlice = require("./reducers/user");
+
 const App = () => {
   const user = useSelector((state) => state.user);
   const dispatch = useDispatch();
@@ -23,7 +25,7 @@ const App = () => {
   }, []);
 
   const onLogout = useCallback(() => {
-    dispatch(logOut());
+    dispatch(userSlice.logOut());
   }, []);
   return (
     <div>

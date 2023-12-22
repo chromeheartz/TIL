@@ -45,14 +45,6 @@ const logInFailure = (data) => {
   };
 };
 
-const logOut = () => {
-  return {
-    // action
-    type: "LOG_OUT",
-  };
-};
-
 module.exports = {
   logIn,
-  logOut,
 };

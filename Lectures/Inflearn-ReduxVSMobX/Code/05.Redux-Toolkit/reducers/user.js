@@ -1,3 +1,5 @@
+const { createSlice } = require("@reduxjs/toolkit");
+
 const initialState = {
   isLoggingIn: false,
   data: null,
@@ -32,4 +34,15 @@ const userReducer = (prevState = initialState, action) => {
   }
 };
 
-module.exports = userReducer;
+const userSlice = createSlice({
+  name: "user",
+  initialState,
+  reducers: {
+    logOut(state, action) {
+      state.data = null;
+    },
+  },
+  extraReducers: {},
+});
+
+module.exports = userSlice;
