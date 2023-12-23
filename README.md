@@ -56,6 +56,7 @@
 * [호스트 통신작업을 위한 컨테이너 만들기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-19.md)
 * [컨테이너 간 통신: 기본 솔루션](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-20.md)
 * [Docker Networks 소개: 우아한 컨테이너 간 통신](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-21.md)
+* [Docker가 IP주소를 해결하는 방법](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-22.md)
 
 <br>
 
