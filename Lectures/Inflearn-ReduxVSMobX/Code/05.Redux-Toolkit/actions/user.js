@@ -1,3 +1,11 @@
+const { createAsyncThunk } = require("@reduxjs/toolkit");
+
+const logIn = createAsyncThunk('user/logIn', async (data, thunkAPI) => {
+  // const state = thunkAPI.getState();
+  
+  // data return
+})
+
 const logIn = (data) => {
   // async action creator
   return (dispatch, getState) => {
