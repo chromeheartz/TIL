@@ -1,30 +1,21 @@
 const { createAsyncThunk } = require("@reduxjs/toolkit");
 
-const logIn = createAsyncThunk('user/logIn', async (data, thunkAPI) => {
-  // const state = thunkAPI.getState();
-  
-  // data return
+const delay = (time, value) => new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve(value);
+  }, time);
 })
 
-const logIn = (data) => {
-  // async action creator
-  return (dispatch, getState) => {
-    // async action
-    dispatch(logInRequest(data)); // action creator
-    try {
-      setTimeout(() => {
-        dispatch(
-          logInSuccess({
-            userId: 1,
-            nickname: "bibiboy",
-          })
-        );
-      }, 2000);
-    } catch (e) {
-      dispatch(logInFailure(e));
-    }
-  };
-};
+const logIn = createAsyncThunk('user/logIn', async (data, thunkAPI) => {
+  console.log(data);
+  // const state = thunkAPI.getState();
+  const result = await delay(500, {
+    userId: 1,
+    nickname: 'bibi',
+  })
+  return result;
+  // data return
+})
 
 const LOG_IN_REQUEST = "LOG_IN_REQUEST";
 const LOG_IN_SUCCESS = "LOG_IN_SUCCESS";

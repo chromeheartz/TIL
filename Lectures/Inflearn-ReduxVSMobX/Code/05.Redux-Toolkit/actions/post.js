@@ -1,10 +1,11 @@
-const addPost = (data) => {
-  return {
-    type: "ADD_POST",
-    data,
-  };
-};
+const { createAsyncThunk } = require('@reduxjs/toolkit');
 
-module.exports = {
-  addPost,
-};
+const delay = (time, value) => new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve(value);
+  }, time);
+})
+
+exports.addPost = createAsyncThunk('post/add', async (data, thunkAPI) => {
+  return await delay(500, data);
+})
