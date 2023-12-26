@@ -1,4 +1,5 @@
 const { createSlice } = require("@reduxjs/toolkit");
+const { logIn } = require("../actions/user");
 
 const initialState = {
   isLoggingIn: false,
@@ -42,7 +43,19 @@ const userSlice = createSlice({
       state.data = null;
     },
   },
-  extraReducers: {},
+  extraReducers: {
+    [logIn.pending](state, action) {
+      state.isLoggingIn = true;
+    },
+    [logIn.fulfilled](state, action) {
+      state.data = action.payload;
+      state.isLoggingIn = true;
+    },
+    [logIn.rejected](state, action) {
+      state.data = null;
+      state.isLogginIn = false;
+    },
+  },
 });
 
 module.exports = userSlice;
