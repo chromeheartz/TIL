@@ -1,31 +1,25 @@
 import React from "react";
 import { useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { logIn, logOut } from "./actions/user";
 
-const userSlice = require("./reducers/user");
+const { logIn } = require("./actions/user");
+const userSlice = require("./reducers/userSlice");
 
 const App = () => {
   const user = useSelector((state) => state.user);
   const dispatch = useDispatch();
+
   const onClick = useCallback(() => {
-    dispatch(logInRequest(data)); // action creator
-    try {
-      setTimeout(() => {
-        dispatch(
-          logInSuccess({
-            userId: 1,
-            nickname: "bibiboy",
-          })
-        );
-      }, 2000);
-    } catch (e) {
-      dispatch(logInFailure(e));
-    }
+    dispatch(
+      logIn({
+        id: "bibi",
+        password: "비밀번호",
+      })
+    );
   }, []);
 
   const onLogout = useCallback(() => {
-    dispatch(userSlice.logOut());
+    dispatch(userSlice.actions.logOut());
   }, []);
   return (
     <div>

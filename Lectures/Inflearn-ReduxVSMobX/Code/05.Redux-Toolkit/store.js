@@ -11,7 +11,8 @@ const firstMiddleware = (store) => (next) => (action) => {
 
 const store = configureStore({
   reducer,
-  middleware: [firstMiddleware, ...getDefaultMiddleware],
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(firstMiddleware),
   devTools: process.env.NODE_ENV !== "production",
 });
 

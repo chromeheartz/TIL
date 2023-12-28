@@ -7,13 +7,6 @@ const delay = (time, value) =>
     }, time);
   });
 
-const addPost = createAsyncThunk("post/add", async () => {
-  return await delay(500, {
-    title: "새 게시글",
-    content: "내용내용내용",
-  });
+exports.addPost = createAsyncThunk("post/add", async (data, thunkAPI) => {
+  return await delay(500, data);
 });
-
-module.exports = {
-  addPost,
-};
