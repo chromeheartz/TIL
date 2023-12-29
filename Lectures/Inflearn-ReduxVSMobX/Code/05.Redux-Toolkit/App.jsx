@@ -3,6 +3,7 @@ import { useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 const { logIn } = require("./actions/user");
+const { addPost } = require("./actions/post");
 const userSlice = require("./reducers/userSlice");
 
 const App = () => {
@@ -21,6 +22,15 @@ const App = () => {
   const onLogout = useCallback(() => {
     dispatch(userSlice.actions.logOut());
   }, []);
+
+  const onAddPost = useCallback(() => {
+    dispatch(
+      addPost({
+        title: "새 게시글",
+        content: "내용내용내용",
+      })
+    );
+  }, []);
   return (
     <div>
       {user.isLoggingIn ? (
@@ -35,6 +45,7 @@ const App = () => {
       ) : (
         <button onClick={onLogout}>로그아웃</button>
       )}
+      <button onClick={onAddPost}>게시글 작성</button>
     </div>
   );
 };
