@@ -8,7 +8,7 @@ const delay = (time, value) =>
   });
 
 exports.logIn = createAsyncThunk("user/logIn", async (data, thunkAPI) => {
-  throw new Error("비밀번호가 틀렸습니다.");
+  // throw new Error("비밀번호가 틀렸습니다.");
   return await delay(500, {
     userId: 1,
     nickname: "bibi",
