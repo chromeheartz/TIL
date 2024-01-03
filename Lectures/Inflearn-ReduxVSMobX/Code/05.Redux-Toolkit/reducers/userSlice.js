@@ -3,6 +3,8 @@ const { logIn } = require("../actions/user");
 
 const initialState = {
   isLoggingIn: false,
+  isLoggedIn: false,
+  error: false,
   data: null,
 };
 
@@ -19,10 +21,13 @@ const userSlice = createSlice({
       .addCase(logIn.pending, (state, action) => {
         state.data = null;
         state.isLoggingIn = true;
+        state.isLoggedIn = false;
       })
       .addCase(logIn.fulfilled, (state, action) => {
         state.data = action.payload;
         state.isLoggingIn = false;
+        state.isLoggedIn = true;
+        state.error = false;
       })
       .addCase(logIn.rejected, (state, action) => {
         state.error = action.payload;

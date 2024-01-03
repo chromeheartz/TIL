@@ -12,13 +12,14 @@ const App = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const onClick = useCallback(() => {
-    dispatch(
-      logIn({
-        id: "bibi",
-        password: "비밀번호",
-      })
-    );
+  const onClick = useCallback(async () => {
+    // dispatch(
+    //   logIn({
+    //     id: "bibi",
+    //     password: "비밀번호",
+    //   })
+    // );
+    await axios.post("/login");
   }, []);
 
   const onLogout = useCallback(() => {
