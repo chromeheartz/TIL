@@ -12,6 +12,25 @@ const App = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
+  // loading, error, done
+
+  // const [isLogInLoading, setIsLogInLoading] = useState(false);
+  // const [isLogInError, setIsLogInError] = useState(false);
+  // const [isLogInDone, setIsLogInDone] = useState(false);
+
+  // const [isLogOutLoading, setIsLogOutLoading] = useState(false);
+  // const [isLogOutError, setIsLogOutError] = useState(false);
+  // const [isLogOutDone, setIsLogOutDone] = useState(false);
+
+  // const [isJoinLoading, setIsJoinLoading] = useState(false);
+  // const [isJoinError, setIsJoinError] = useState(false);
+  // const [isJoinDone, setIsJoinDone] = useState(false);
+
+  // loadings, errors, dones
+  const [loadings, setLoadings] = useState({});
+  const [errors, setErrors] = useState({});
+  const [dones, setDones] = useState({});
+
   const onClick = useCallback(async () => {
     // dispatch(
     //   logIn({

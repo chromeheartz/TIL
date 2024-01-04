@@ -4,6 +4,10 @@ const { logIn } = require("../actions/user");
 const initialState = {
   isLoggingIn: false,
   isLoggedIn: false,
+  isLoggingOut: false,
+  isLoggedOut: false,
+  logInError: false,
+  logOutError: false,
   error: false,
   data: null,
 };
