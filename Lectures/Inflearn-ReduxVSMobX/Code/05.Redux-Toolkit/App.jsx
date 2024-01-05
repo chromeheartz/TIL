@@ -31,6 +31,8 @@ const App = () => {
   const [errors, setErrors] = useState({});
   const [dones, setDones] = useState({});
 
+  const [loadingIds, setLoadingIds] = useState([]);
+
   const onClick = useCallback(async () => {
     // dispatch(
     //   logIn({
@@ -38,7 +40,20 @@ const App = () => {
     //     password: "비밀번호",
     //   })
     // );
-    await axios.post("/login");
+    const id = new Date().valueOf();
+    setLoadings((prev) => ({
+      ...prev,
+      [id]: { type: "LOGIN_LOADING" },
+    }));
+    setLoadingIds((prev) => prev.concat(id));
+    try {
+      const response = await axios.post("/login");
+      setDones(true);
+    } catch (error) {
+      setErrors(error);
+    } finally {
+      setLoadings(false);
+    }
   }, []);
 
   const onLogout = useCallback(() => {
