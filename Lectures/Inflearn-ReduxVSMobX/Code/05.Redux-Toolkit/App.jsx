@@ -1,6 +1,7 @@
 import React from "react";
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { createSelector } from "@reduxjs/toolkit"; // reselect
 
 const { logIn } = require("./actions/user");
 const { addPost } = require("./actions/post");
@@ -8,6 +9,7 @@ const userSlice = require("./reducers/userSlice");
 
 const App = () => {
   const user = useSelector((state) => state.user);
+  const prices = useSelector((state) => state.user.prices);
   const dispatch = useDispatch();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -109,6 +111,7 @@ const App = () => {
         <input type="email" value={email} onChange={onChangeEmail} />
         <input type="password" value={password} onChange={onChangePassword} />
       </form>
+      <div><b>{prices.reduce((a, c) => a + c, 0)}원</b></div>
     </div>
   );
 };
