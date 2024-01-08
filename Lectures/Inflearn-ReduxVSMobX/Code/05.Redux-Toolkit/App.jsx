@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { useCallback, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { createSelector } from "@reduxjs/toolkit"; // reselect
@@ -92,6 +92,11 @@ const App = () => {
     [dispatch, email, password]
   );
 
+  const totalPrice = useMemo(() => {
+    console.log("memo");
+    return prices.reduce((a, c) => a + c, 0);
+  }, [prices]);
+
   return (
     <div>
       {user.isLoggingIn ? (
@@ -111,7 +116,9 @@ const App = () => {
         <input type="email" value={email} onChange={onChangeEmail} />
         <input type="password" value={password} onChange={onChangePassword} />
       </form>
-      <div><b>{prices.reduce((a, c) => a + c, 0)}원</b></div>
+      <div>
+        <b>{totalPrice}원</b>
+      </div>
     </div>
   );
 };
