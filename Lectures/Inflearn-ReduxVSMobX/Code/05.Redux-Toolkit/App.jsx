@@ -7,9 +7,17 @@ const { logIn } = require("./actions/user");
 const { addPost } = require("./actions/post");
 const userSlice = require("./reducers/userSlice");
 
+const userSelector = (state) => state.user;
+const pricesSelector = (state) => state.user.prices;
+const sumPriceSelector = createSelector(pricesSelector, (prices) =>
+  prices.reduce((a, c) => a + c, 0)
+);
+
 const App = () => {
-  const user = useSelector((state) => state.user);
-  const prices = useSelector((state) => state.user.prices);
+  const user = useSelector(userSelector);
+  // const prices = useSelector((state) => state.user.prices);
+  const totalPrices = useSelector(sumPriceSelector);
+  console.log(totalPrices);
   const dispatch = useDispatch();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -92,10 +100,10 @@ const App = () => {
     [dispatch, email, password]
   );
 
-  const totalPrice = useMemo(() => {
-    console.log("memo");
-    return prices.reduce((a, c) => a + c, 0);
-  }, [prices]);
+  // const totalPrice = useMemo(() => {
+  //   console.log("memo");
+  //   return prices.reduce((a, c) => a + c, 0);
+  // }, [prices]);
 
   return (
     <div>
@@ -116,8 +124,9 @@ const App = () => {
         <input type="email" value={email} onChange={onChangeEmail} />
         <input type="password" value={password} onChange={onChangePassword} />
       </form>
+      {/* <div><b>{totalPrice}원</b></div> */}
       <div>
-        <b>{totalPrice}원</b>
+        <b>{totalPrices}원</b>
       </div>
     </div>
   );
