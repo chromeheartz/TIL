@@ -9,9 +9,13 @@ const userSlice = require("./reducers/userSlice");
 
 const userSelector = (state) => state.user;
 const pricesSelector = (state) => state.user.prices;
-const sumPriceSelector = createSelector(pricesSelector, (prices) =>
-  prices.reduce((a, c) => a + c, 0)
-);
+// const sumPriceSelector = createSelector(pricesSelector, (prices) =>
+//   prices.reduce((a, c) => a + c, 0)
+// );
+
+export const makeSumPriceSelector = () =>
+  createSelector(pricesSelector, (prices) => prices.reduce((a, c) => a + c, 0));
+const sumPriceSelector = makeSumPriceSelector();
 
 const App = () => {
   const user = useSelector(userSelector);
