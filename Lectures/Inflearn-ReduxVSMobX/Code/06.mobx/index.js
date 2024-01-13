@@ -1,15 +1,21 @@
-const { observable, autorun } = require('mobx');
+const { observable, autorun, runInAction } = require("mobx");
 
 const state = observable({
-  compA: 'a',
+  compA: "a",
   compB: 12,
   compC: null,
 });
 
 autorun(() => {
-  console.log('changed');
-})
+  console.log("changed", state.compA);
+});
 
-state.compA = 'b';
-state.compA = 'c';
-state.compA = 'c';
+runInAction(() => {
+  state.compA = "b";
+  state.compA = "c";
+  state.compA = "c";
+});
+
+runInAction(() => {
+  state.compA = "d";
+});
