@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
-import { observer } from 'mobx-react';
-import { observable } from 'mobx';
+import React, { Component } from "react";
+import { observer } from "mobx-react";
+import { observable } from "mobx";
 
-import { userStore, postStore } from './store';
+import { userStore, postStore } from "./store";
 
 class App extends Component {
   state = observable({
-    name: '',
-    password: '',
+    name: "",
+    password: "",
   });
 
   onClick = () => {
     userStore.logIn({
-      nickname: 'zerocho',
-      password: '비밀번호',
+      nickname: "bibi",
+      password: "비밀번호",
     });
   };
 
@@ -32,17 +32,25 @@ class App extends Component {
   render() {
     return (
       <div>
-        {userStore.isLoggingIn
-          ? <div>로그인 중</div>
-          : userStore.data
-            ? <div>{userStore.data.nickname}</div>
-            : '로그인 해주세요.'}
-        {!userStore.data
-          ? <button onClick={this.onClick}>로그인</button>
-          : <button onClick={this.onLogout}>로그아웃</button>}
+        {userStore.isLoggingIn ? (
+          <div>로그인 중</div>
+        ) : userStore.data ? (
+          <div>{userStore.data.nickname}</div>
+        ) : (
+          "로그인 해주세요."
+        )}
+        {!userStore.data ? (
+          <button onClick={this.onClick}>로그인</button>
+        ) : (
+          <button onClick={this.onLogout}>로그아웃</button>
+        )}
         <div>{postStore.data.length}</div>
         <input value={this.state.name} onChange={this.onChangeName} />
-        <input value={this.state.password} type="password" onChange={this.onChangePassword}  />
+        <input
+          value={this.state.password}
+          type="password"
+          onChange={this.onChangePassword}
+        />
       </div>
     );
   }
