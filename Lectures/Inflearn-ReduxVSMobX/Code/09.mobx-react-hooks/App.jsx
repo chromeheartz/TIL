@@ -1,17 +1,20 @@
 import React, { useCallback } from "react";
 import { userStore, postStore } from "./store";
 import { useLocalStore, useObserver } from "mobx-react";
+import { action, runInAction } from "mobx";
 
 const App = () => {
   const state = useLocalStore(() => ({
     name: "",
     password: "",
-    onChangeName(e) {
-      this.state.name = e.target.value;
-    },
+    onChangeName: action((e) => {
+      state.name = e.target.value;
+    }),
 
     onChangePassword(e) {
-      this.state.password = e.target.value;
+      runInAction(() => {
+        state.password = e.target.value;
+      });
     },
   }));
   const onLogIn = useCallback(() => {

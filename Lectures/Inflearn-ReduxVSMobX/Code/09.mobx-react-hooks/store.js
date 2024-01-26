@@ -1,4 +1,6 @@
-const { observable } = require('mobx');
+const { observable, configure } = require("mobx");
+
+configure({ enforceActions: "always" });
 
 const userStore = observable({
   isLoggingIn: false,
