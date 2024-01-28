@@ -23,6 +23,12 @@ const postStore = observable({
   addPost(data) {
     this.data.push(data);
   },
+  get postLength() {
+    return this.data.length;
+  },
+  set post(value) {
+    return (this.data = value);
+  },
 });
 
 export { userStore, postStore };
