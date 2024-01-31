@@ -3,6 +3,10 @@ const initialState = {
   data: null,
 };
 
+export const LOG_IN = "LOG_IN";
+export const LOG_IN_SUCCESS = "LOG_IN_SUCCESS";
+export const LOG_IN_FAILURE = "LOG_IN_FAILURE";
+
 const userReducer = (prevState = initialState, action) => {
   switch (action.type) {
     case "LOG_IN_REQUEST":
