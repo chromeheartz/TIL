@@ -3,18 +3,14 @@ const reducer = require("./reducers");
 const { logIn, logOut } = require("./actions/user");
 const { addPost } = require("./actions/post");
 const { composeWithDevTools } = require("redux-devtools-extension");
+import createSagaMiddleware from "redux-saga";
+import rootSaga from "./sagas";
 
 const initialState = {
   user: {
     isLoggingIn: false,
     data: null,
   },
-  posts: [],
-  comments: [],
-  favorites: [],
-  history: [],
-  likes: [],
-  followers: [],
 };
 
 const firstMiddleware = (store) => (next) => (action) => {
@@ -31,11 +27,18 @@ const thunkMiddleware = (store) => (next) => (action) => {
   return next(action);
 };
 
-const enhancer =
+const sagaMiddleware = createSagaMiddleware(); // 사가 미들웨어를 만듭니다.
+
+const enhancer = compose(
   process.env.NODE_ENV === "production"
-    ? compose(applyMiddleware(firstMiddleware, thunkMiddleware))
-    : composeWithDevTools(applyMiddleware(firstMiddleware, thunkMiddleware));
+    ? applyMiddleware(sagaMiddleware, firstMiddleware, thunkMiddleware)
+    : composeWithDevTools(
+        applyMiddleware(sagaMiddleware, firstMiddleware, thunkMiddleware)
+      )
+);
 
 const store = createStore(reducer, initialState, enhancer);
 
-module.exports = store;
+sagaMiddleware.run(rootSaga);
+
+export default store;

@@ -36,4 +36,4 @@ const userReducer = (prevState = initialState, action) => {
   }
 };
 
-module.exports = userReducer;
+export default userReducer;

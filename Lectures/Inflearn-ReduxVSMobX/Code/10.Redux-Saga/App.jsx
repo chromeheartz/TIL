@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { logIn, logOut } from "./actions/user";
 
 const App = () => {
-  const user = useSelector((state) => state.user);
+  const user = useSelector((state) => state);
   console.log(user);
   const dispatch = useDispatch();
   const onClick = useCallback(() => {

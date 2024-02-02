@@ -1,8 +1,20 @@
-const { combineReducers } = require("redux");
-const userReducer = require("./user");
-const postReducer = require("./post");
+import user from "./user";
+import post from "./post";
+import { combineReducers } from "redux";
 
-module.exports = combineReducers({
-  user: userReducer,
-  posts: postReducer,
+// (이전상태, 액션) => 다음상태
+const rootReducer = combineReducers({
+  index: (state = {}, action) => {
+    switch (action.type) {
+      case HYDRATE:
+        console.log("HYDRATE", action);
+        return { ...state, ...action.payload };
+      default:
+        return state;
+    }
+  },
+  user,
+  post,
 });
+
+export default rootReducer;
