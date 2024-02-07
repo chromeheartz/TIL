@@ -24,8 +24,9 @@ function* watchLogin() {
 }
 
 function* helloSaga() {
-  console.log("hello saga");
+  console.log("before saga");
   yield take(HELLO_SAGA);
+  console.log("hello saga");
 }
 
 export default function* userSaga() {
