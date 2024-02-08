@@ -5,7 +5,7 @@ const HELLO_SAGA = "HELLO_SAGA";
 
 function loginAPI() {}
 
-function* login() {
+function* watchLogin() {
   try {
     yield call(loginAPI);
     yield put({
@@ -23,12 +23,14 @@ function* watchLogin() {
   yield takeLatest(LOG_IN, login);
 }
 
-function* helloSaga() {
+function* watchHello() {
   console.log("before saga");
-  yield take(HELLO_SAGA);
-  console.log("hello saga");
+  for (let i = 0; i < 5; i++) {
+    yield take(HELLO_SAGA);
+    console.log("hello saga");
+  }
 }
 
 export default function* userSaga() {
-  yield all([fork(watchLogin), helloSaga()]);
+  yield all([watchHello(), watchLogin(), watchSignup()]);
 }
