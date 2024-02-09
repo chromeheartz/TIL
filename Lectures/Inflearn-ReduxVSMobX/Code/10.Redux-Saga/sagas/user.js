@@ -20,7 +20,10 @@ function* watchLogin() {
 }
 
 function* watchLogin() {
-  yield takeLatest(LOG_IN, login);
+  yield take(LOG_IN);
+  yield put({
+    type: LOG_IN_SUCCESS,
+  });
 }
 
 function* watchHello() {
