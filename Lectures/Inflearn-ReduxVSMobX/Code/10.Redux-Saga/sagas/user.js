@@ -12,8 +12,11 @@ const HELLO_SAGA = "HELLO_SAGA";
 
 function loginAPI() {}
 
+function logger() {}
+
 function* watchLogin() {
   try {
+    yield call(logger);
     yield call(loginAPI);
     yield put({
       type: LOG_IN_SUCCESS,
@@ -43,5 +46,5 @@ function* watchHello() {
 }
 
 export default function* userSaga() {
-  yield all([watchHello(), watchLogin(), watchSignup()]);
+  yield all([fork(watchHello()), watchLogin(), watchSignup()]);
 }
