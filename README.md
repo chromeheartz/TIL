@@ -61,6 +61,7 @@
 * [몽고DB 서비스 도커화하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-24.md)
 * [React SPA 컨테이너에 옮기기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-25.md)
 * [효율적인 컨테이너 간 통신을 위한 Docker 네트워크 추가하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-26.md)
+* [볼륨으로 MongoDB에 데이터 지속성 추가](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-27.md)
 
 <br>
 
