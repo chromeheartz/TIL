@@ -6,7 +6,7 @@ import {
   takeEvery,
   takeLatest,
 } from "redux-saga/effects";
-import { LOG_IN, LOG_IN_SUCCESS, LOG_IN_FAILURE } from "../reducers/user";
+import { LOG_IN, LOG_IN_SUCCESS, LOG_IN_FAILURE, LOG_IN_REQUEST } from "../reducers/user";
 
 const HELLO_SAGA = "HELLO_SAGA";
 
@@ -29,11 +29,22 @@ function* watchLogin() {
   }
 }
 
+function* login () {
+  try {
+    yield call(loginAPI);
+    yield put({ //
+      type: LOG_IN_SUCCESS,
+    })
+  } catch(e) {
+    console.error(e);
+    yield.put({
+      type: LOG_IN_FAILURE
+    })
+  }
+}
+
 function* watchLogin() {
-  yield take(LOG_IN);
-  yield put({
-    type: LOG_IN_SUCCESS,
-  });
+  yield takeEvery(LOG_IN_REQUEST, login)
 }
 
 function* watchHello() {
@@ -46,5 +57,5 @@ function* watchHello() {
 }
 
 export default function* userSaga() {
-  yield all([fork(watchHello()), watchLogin(), watchSignup()]);
+  yield all([fork(watchLogin)]);
 }

@@ -3,7 +3,7 @@ const initialState = {
   data: null,
 };
 
-export const LOG_IN = "LOG_IN";
+export const LOG_IN_REQUEST = "LOG_IN_REQUEST";
 export const LOG_IN_SUCCESS = "LOG_IN_SUCCESS";
 export const LOG_IN_FAILURE = "LOG_IN_FAILURE";
 
@@ -13,12 +13,14 @@ const userReducer = (prevState = initialState, action) => {
       return {
         ...prevState,
         isLoggingIn: true,
+        isLoading: true,
       };
     case "LOG_IN_SUCCESS":
       return {
         ...prevState,
         data: action.data,
         isLoggingIn: false,
+        isLoading: false,
       };
     case "LOG_IN_FAILURE":
       return {
