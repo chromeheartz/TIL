@@ -188,12 +188,12 @@ nx serve monorepo.user
 ├── libs
 │   ├── shared
 │   │   └── src
-│   │	  	└── assets
-│   │    	└── components
-│   │    	└── hooks
-│   │    	└── types
-│   │    	└── utils
-│	└── index.ts
+│   │	    └── assets
+│   │	    └── components
+│   │	    └── hooks
+│   │	    └── types
+│   │	    └── utils
+│   └── index.ts
 └── tsconfig.base.json
 ```
 
