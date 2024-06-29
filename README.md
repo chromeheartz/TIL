@@ -83,9 +83,6 @@
 * [JobInstance, ApplicationRunner, JobLauncher 만들기](https://github.com/gilyeon00/TIL/blob/main/Spring-Batch/4-JobInstance.md)
 
 <br>
-
-
-<br>
 <!--
 </details>
 -->
