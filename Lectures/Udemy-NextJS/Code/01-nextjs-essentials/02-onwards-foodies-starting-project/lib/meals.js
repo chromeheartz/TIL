@@ -7,5 +7,11 @@ export async function getMeals() {
   await new Promise((resolve) => setTimeout(resolve, 2000)); // 예시 대기 시간
 
   // 동기식으로 SQL 쿼리 실행
+  // throw new Error("Loading meals failed");
   return db.prepare("SELECT * FROM meals").all();
+}
+
+export function getMeal(slug) {
+  console.log("slug:::", slug);
+  return db.prepare("SELECT * FROM meals WHERE slug = ?").get(slug);
 }
