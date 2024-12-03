@@ -13,6 +13,9 @@ export async function shareMeal(formData) {
     creator_email: formData.get("email"),
   };
 
+  if (!meal.title || meal.title.trim() === "") {
+  }
+
   await saveMeal(meal);
   redirect("/meals");
 }
