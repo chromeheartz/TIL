@@ -10,7 +10,6 @@
 
 # 📌 Study
 
-
 <!--
 <details>
   <summary> ✅ Finders </summary>
