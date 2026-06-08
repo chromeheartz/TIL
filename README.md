@@ -1,92 +1,65 @@
 # TIL
-🏴 Today I Learned
+🏴 Today I Learned — 매일 읽고 배운 것을 기록합니다.
 
-# 📌 Lectures
+<br>
+
+## 📚 Lectures
+
+> 강의/책 단위로 학습한 내용은 폴더로 묶어 정리했습니다.
 
 * [[REACT-QUERY]: React로 서버 상태 관리하기](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-ReactQuery)
 * [[ALGORITHM]: JavaScript 알고리즘 & 자료구조](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-Algorithm)
 * [[JEST]: Jest 및 테스팅 라이브러리로 React 테스트하기](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-Jest)
 * [[REDUX vs MOBX]: Redux vs MobX](https://github.com/chromeheartz/TIL/tree/main/Lectures/Inflearn-ReduxVSMobX)
-
-# 📌 Study
-
-<!--
-<details>
-  <summary> ✅ Finders </summary>
--->
-
-
-## Docker
-* [Docker란?](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-06.md)
-* [Docker에서 Images 와 Containers](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-10.md)
-* [Dockerfile, RUN 과 CMD](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-14.md)
-* [이미지와 컨테이너가 작동하는 방식](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-15.md)
-* [이미지 레이어의 이해](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-17.md)
-* [컨테이터 중지 & 재시작](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-18.md)
-* [Attached 와 Detached 컨테이너 이해](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-19.md)
-* [인터렉티브 모드로 들어가기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-20.md)
-* [이미지, 컨테이너 관리 및 삭제하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-21.md)
-* [중지된 컨테이너 자동 제거하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-22.md)
-* [작동 배경 살펴보기 : 이미지 검사](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-23.md)
-* [컨테이너에 컨테이너로 부터 파일 복사하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-24.md)
-* [컨테이너와 이미지에 이름 지정 & 태그 지정하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-25.md)
-* [이미지 공유하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-26.md)
-* [DockerHub에 이미지 푸시](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-27.md)
-* [공유 이미지 가져오기(pull) & 사용하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-28.md)
-* [임시 애플리케이션 데이터 & 영구 애플리케이션 데이터](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-29.md)
-* [데모 앱 구축 & 이해](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-30.md)
-* [컨테이너의 데이터 손실 문제 이해하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-08-31.md)
-* [볼륨이란?](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-01.md)
-* [도커가 제어하는 볼륨 만들기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-02.md)
-* [명명된 볼륨으로 구조하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-03.md)
-* [바인드 마운트 시작하기(코드 공유)](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-04.md)
-* [다른 볼륨 결합 & 병합하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-05.md)
-* [NodeJS 특화 조정: 컨테이너에서 Nodemon 사용하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-06.md)
-* [볼륨 & 마운트 요약](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-07.md)
-* [읽기 전용 볼륨](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-08.md)
-* [도커 볼륨 관리하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-09.md)
-* [COPY 사용 vs 바인드 마운트 사용](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-10.md)
-* [모든 것을 복사하진 마세요: dockerignore 파일 사용하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-11.md)
-* [환경 변수 & .env 파일 작업](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-12.md)
-* [빌드 인수(ARG) 사용하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-13.md)
-* [모듈 요약](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-14.md)
-* [WWW 통신 컨테이너](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-15.md)
-* [컨테이너에서 로컬 호스트 머신으로의 통신](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-16.md)
-* [컨테이너간 통신](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-17.md)
-* [컨테이너 만들기 & 웹 통신](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-18.md)
-* [호스트 통신작업을 위한 컨테이너 만들기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-19.md)
-* [컨테이너 간 통신: 기본 솔루션](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-20.md)
-* [Docker Networks 소개: 우아한 컨테이너 간 통신](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-21.md)
-* [Docker가 IP주소를 해결하는 방법](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-22.md)
-* [컨테이너 통신 및 네트워크 요약](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-23.md)
-* [몽고DB 서비스 도커화하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-24.md)
-* [React SPA 컨테이너에 옮기기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-25.md)
-* [효율적인 컨테이너 간 통신을 위한 Docker 네트워크 추가하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-26.md)
-* [볼륨으로 MongoDB에 데이터 지속성 추가](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-27.md)
-* [NodeJS 컨테이너의 볼륨, 바인딩 마운트 및 폴리싱(Polishing)](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-28.md)
-* [(바인드 마운트) React 컨테이너에대한 라이브 소스 코드 업데이트하기](https://github.com/KIMINJOONG/TIL/blob/main/Docker%26Kubernetes/2023-09-29.md)
+* [[NEXTJS]: Next.js로 React 및 풀스택 웹앱 빌드하기](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-NextJS)
+* [[NODE]: Node.js, Express, MongoDB 부트캠프](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-Node)
+* [[DOCKER]: Docker & Kubernetes](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-Docker)
+* [[GIT]: Git & GitHub 마스터하기](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-Git)
+* [[SPRINGBOOT]: Spring Boot 입문](https://github.com/chromeheartz/TIL/tree/main/Lectures/Udemy-SpringBoot)
+* [[CLEANCODE-JS]: 클린코드 자바스크립트](https://github.com/chromeheartz/TIL/tree/main/CleanCode-JavaScript)
+* [[CLEANCODE-REACT]: 클린코드 리액트](https://github.com/chromeheartz/TIL/tree/main/CleanCode-React)
 
 <br>
 
-## JPA
-* [SQL 중심적인 개발의 문제점](https://github.com/Djangowon/TIL/blob/dcb6e3062afe9a9bf8afdf4545ff80496acd6de3/Java/JPA/SQL%20%EC%A4%91%EC%8B%AC%EC%A0%81%EC%9D%B8%20%EA%B0%9C%EB%B0%9C%EC%9D%98%20%EB%AC%B8%EC%A0%9C%EC%A0%90.md/)
-* [JPA](https://github.com/Djangowon/TIL/blob/main/Java/JPA/JPA.md)
-* [영속성 컨텍스트](https://github.com/Djangowon/TIL/blob/main/Java/JPA/%EC%98%81%EC%86%8D%EC%84%B1%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8.md)
-* [영속성 관리: 플러시란?](https://github.com/Djangowon/TIL/blob/main/Java/JPA/%ED%94%8C%EB%9F%AC%EC%8B%9C.md)
-* [영속성 관리: 준영속 상태](https://github.com/Djangowon/TIL/blob/main/Java/JPA/%EC%A4%80%EC%98%81%EC%86%8D%20%EC%83%81%ED%83%9C.md/)
-* [엔티티 매핑하기 - 객체와 테이블 매핑](https://github.com/Djangowon/TIL/blob/main/Java/JPA/%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%A7%A4%ED%95%91%20-%20%EA%B0%9D%EC%B2%B4%EC%99%80%20%ED%85%8C%EC%9D%B4%EB%B8%94%20%EB%A7%A4%ED%95%91.md)
-* [데이터베이스 스키마 자동 생성하기](https://github.com/Djangowon/TIL/blob/main/Java/JPA/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%20%EC%8A%A4%ED%82%A4%EB%A7%88%20%EC%9E%90%EB%8F%99%20%EC%83%9D%EC%84%B1.md)
+## ✍️ Frontend
+
+> 아티클을 읽고 정리한 글입니다.
+
+### JavaScript
+
+* [JavaScript의 Date는 얼마나 잘못될 수있는가](https://github.com/chromeheartz/TIL/blob/main/frontend/JavaScript/01.JavaScript%EC%9D%98%20Date%EB%8A%94%20%EC%96%BC%EB%A7%88%EB%82%98%20%EC%9E%98%EB%AA%BB%EB%90%A0%20%EC%88%98%EC%9E%88%EB%8A%94%EA%B0%80.md)
+* [ECMAScript 2025에서 뭐가 새로 생겼나](https://github.com/chromeheartz/TIL/blob/main/frontend/JavaScript/02.ECMAScript%202025%EC%97%90%EC%84%9C%20%EB%AD%90%EA%B0%80%20%EC%83%88%EB%A1%9C%20%EC%83%9D%EA%B2%BC%EB%82%98.md)
+* [JS의 명시적 리소스 관리 - using키워드](https://github.com/chromeheartz/TIL/blob/main/frontend/JavaScript/03.JS%EC%9D%98%20%EB%AA%85%EC%8B%9C%EC%A0%81%20%EB%A6%AC%EC%86%8C%EC%8A%A4%20%EA%B4%80%EB%A6%AC%20-%20using%ED%82%A4%EC%9B%8C%EB%93%9C.md)
+* [JavaScript는 어떻게 실행될까?](https://github.com/chromeheartz/TIL/blob/main/frontend/JavaScript/04.JavaScript%EB%8A%94%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EC%8B%A4%ED%96%89%EB%90%A0%EA%B9%8C%3F.md)
+* [JavaScript에서 Promise 취소하기](https://github.com/chromeheartz/TIL/blob/main/frontend/JavaScript/05.JavaScript%EC%97%90%EC%84%9C%20Promise%20%EC%B7%A8%EC%86%8C%ED%95%98%EA%B8%B0.md)
+* [CommonJS가 자바스크립트를 해치고 있다](https://github.com/chromeheartz/TIL/blob/main/frontend/JavaScript/06.CommonJS%EA%B0%80%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A5%BC%20%ED%95%B4%EC%B9%98%EA%B3%A0%20%EC%9E%88%EB%8B%A4.md)
+* [AxiosVSFetch](https://github.com/chromeheartz/TIL/blob/main/frontend/JavaScript/07.AxiosVSFetch.md)
+* [왜 자바스크립트에서 효율적인 하이드레이션은 그렇게 어려운가](https://github.com/chromeheartz/TIL/blob/main/frontend/JavaScript/08.%EC%99%9C%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C%20%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9D%B8%20%ED%95%98%EC%9D%B4%EB%93%9C%EB%A0%88%EC%9D%B4%EC%85%98%EC%9D%80%20%EA%B7%B8%EB%A0%87%EA%B2%8C%20%EC%96%B4%EB%A0%A4%EC%9A%B4%EA%B0%80.md)
+
+### React
+
+* [useEffect 함수에 이름을 붙이자](https://github.com/chromeheartz/TIL/blob/main/frontend/react/01.useEffect%20%ED%95%A8%EC%88%98%EC%97%90%20%EC%9D%B4%EB%A6%84%EC%9D%84%20%EB%B6%99%EC%9D%B4%EC%9E%90.md)
+* [useEffect의 의존성 지옥 탈출기](https://github.com/chromeheartz/TIL/blob/main/frontend/react/02.useEffect%EC%9D%98%20%EC%9D%98%EC%A1%B4%EC%84%B1%20%EC%A7%80%EC%98%A5%20%ED%83%88%EC%B6%9C%EA%B8%B0.md)
+* [리액트에서의 단일 책임 원칙 (SRP)](https://github.com/chromeheartz/TIL/blob/main/frontend/react/03.%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98%20%EB%8B%A8%EC%9D%BC%20%EC%B1%85%EC%9E%84%20%EC%9B%90%EC%B9%99%20%28SRP%29.md)
+* [리액트 컴파일러](https://github.com/chromeheartz/TIL/blob/main/frontend/react/04.%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC.md)
+* [새 리액트 문서가 권장하는 9가지 코드 스타일](https://github.com/chromeheartz/TIL/blob/main/frontend/react/05.%EC%83%88%20%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EB%AC%B8%EC%84%9C%EA%B0%80%20%EA%B6%8C%EC%9E%A5%ED%95%98%EB%8A%94%209%EA%B0%80%EC%A7%80%20%EC%BD%94%EB%93%9C%20%EC%8A%A4%ED%83%80%EC%9D%BC.md)
+
+### CSS
+
+* [다크 모드를 넘어서: CSS 필터로 사용자가 UI를 직접 조정하게 하기](https://github.com/chromeheartz/TIL/blob/main/frontend/css/01.%EB%8B%A4%ED%81%AC%20%EB%AA%A8%EB%93%9C%EB%A5%BC%20%EB%84%98%EC%96%B4%EC%84%9C%3A%20CSS%20%ED%95%84%ED%84%B0%EB%A1%9C%20%EC%82%AC%EC%9A%A9%EC%9E%90%EA%B0%80%20UI%EB%A5%BC%20%EC%A7%81%EC%A0%91%20%EC%A1%B0%EC%A0%95%ED%95%98%EA%B2%8C%20%ED%95%98%EA%B8%B0.md)
+
+### Browser
+
+* [프런트엔드 개발자가 알아야 할 접근성 필수 사항](https://github.com/chromeheartz/TIL/blob/main/frontend/browser/01.%ED%94%84%EB%9F%B0%ED%8A%B8%EC%97%94%EB%93%9C%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80%20%EC%95%8C%EC%95%84%EC%95%BC%20%ED%95%A0%20%EC%A0%91%EA%B7%BC%EC%84%B1%20%ED%95%84%EC%88%98%20%EC%82%AC%ED%95%AD.md)
+
+### ETC
+
+* [DRY — 잘못된 추상화의 흔한 원인](https://github.com/chromeheartz/TIL/blob/main/frontend/etc/01.DRY%20%E2%80%94%20%EC%9E%98%EB%AA%BB%EB%90%9C%20%EC%B6%94%EC%83%81%ED%99%94%EC%9D%98%20%ED%9D%94%ED%95%9C%20%EC%9B%90%EC%9D%B8.md)
+* [merge vs rebase vs squash](https://github.com/chromeheartz/TIL/blob/main/frontend/etc/02.merge%20vs%20rebase%20vs%20squash.md)
+* [SSR과 CSR의 차이](https://github.com/chromeheartz/TIL/blob/main/frontend/etc/03.SSR%EA%B3%BC%20CSR%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 
 <br>
 
-## Spring Batch
-* [Batch란?](https://github.com/gilyeon00/TIL/blob/main/Spring-Batch/1-%EB%B0%B0%EC%B9%98%EB%9E%80%3F.md)
-* [Spring-Batch란?](https://github.com/gilyeon00/TIL/blob/main/Spring-Batch/2-Spring-Batch%EB%9E%80%3F.md)
-* [Job과 기본 구현체 이해, Job 실행하기](https://github.com/gilyeon00/TIL/blob/main/Spring-Batch/3-Job.md)
-* [JobInstance, ApplicationRunner, JobLauncher 만들기](https://github.com/gilyeon00/TIL/blob/main/Spring-Batch/4-JobInstance.md)
+## 🛠️ Hands-on
 
-<br>
-<!--
-</details>
--->
-
+* **[Monorepo (Nx)](https://github.com/chromeheartz/TIL/tree/main/monorepo)** — Nx 기반 모노레포 실습. `apps`(admin · user + e2e), `libs/shared` 구성. → [개념 정리 README](https://github.com/chromeheartz/TIL/blob/main/monorepo/README.md)
