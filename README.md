@@ -51,6 +51,7 @@
 ### Browser
 
 * [프런트엔드 개발자가 알아야 할 접근성 필수 사항](https://github.com/chromeheartz/TIL/blob/main/frontend/browser/01.%ED%94%84%EB%9F%B0%ED%8A%B8%EC%97%94%EB%93%9C%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80%20%EC%95%8C%EC%95%84%EC%95%BC%20%ED%95%A0%20%EC%A0%91%EA%B7%BC%EC%84%B1%20%ED%95%84%EC%88%98%20%EC%82%AC%ED%95%AD.md)
+* [htmx: 웹 앱을 만드는 가장 새로운 오래된 방법](https://github.com/chromeheartz/TIL/blob/main/frontend/browser/02.%EC%9B%B9%20%EC%95%B1%EC%9D%84%20%EB%A7%8C%EB%93%9C%EB%8A%94%20%EA%B0%80%EC%9E%A5%20%EC%83%88%EB%A1%9C%EC%9A%B4%20%EC%98%A4%EB%9E%98%EB%90%9C%20%EB%B0%A9%EB%B2%95.md)
 
 ### ETC
 
