@@ -36,6 +36,8 @@
 * [AxiosVSFetch](https://github.com/chromeheartz/TIL/blob/main/frontend/JavaScript/07.AxiosVSFetch.md)
 * [왜 자바스크립트에서 효율적인 하이드레이션은 그렇게 어려운가](https://github.com/chromeheartz/TIL/blob/main/frontend/JavaScript/08.%EC%99%9C%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C%20%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9D%B8%20%ED%95%98%EC%9D%B4%EB%93%9C%EB%A0%88%EC%9D%B4%EC%85%98%EC%9D%80%20%EA%B7%B8%EB%A0%87%EA%B2%8C%20%EC%96%B4%EB%A0%A4%EC%9A%B4%EA%B0%80.md)
 * [BlobAPI](https://github.com/chromeheartz/TIL/blob/main/frontend/JavaScript/09.BlobAPI.md)
+* [현실 프론트엔드에서 쓰는 자바스크립트 자료구조 (React 예시)](https://github.com/chromeheartz/TIL/blob/main/frontend/JavaScript/10.%ED%98%84%EC%8B%A4%EC%97%90%EC%84%9C%20%EC%93%B0%EB%8A%94%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md)
+
 
 ### React
 
