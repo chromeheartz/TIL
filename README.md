@@ -42,7 +42,6 @@
 
 
 
-
 ### React
 
 * [useEffect 함수에 이름을 붙이자](https://github.com/chromeheartz/TIL/blob/main/frontend/react/01.useEffect%20%ED%95%A8%EC%88%98%EC%97%90%20%EC%9D%B4%EB%A6%84%EC%9D%84%20%EB%B6%99%EC%9D%B4%EC%9E%90.md)
