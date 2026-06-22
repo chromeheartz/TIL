@@ -72,3 +72,6 @@
 ## 🛠️ Hands-on
 
 * **[Monorepo (Nx)](https://github.com/chromeheartz/TIL/tree/main/monorepo)** — Nx 기반 모노레포 실습. `apps`(admin · user + e2e), `libs/shared` 구성. → [개념 정리 README](https://github.com/chromeheartz/TIL/blob/main/monorepo/README.md)
+* **[todoru.sh](https://github.com/chromeheartz/todoru.sh)** — 항상 화면 위에 떠 있는 macOS 터미널형 TODO 앱. 마우스 대신 `/add` · `/done` 같은 슬래시 명령어로 조작, 자동완성 팔레트 · 드래그 정렬 · 한글 IME 지원. `Electron` + `TypeScript`. → [README](https://github.com/chromeheartz/todoru.sh/blob/main/README.md)
+* **[merry-gitmas](https://github.com/chromeheartz/merry-gitmas)** — 올해 GitHub 커밋으로 자라나는 픽셀 크리스마스 트리. `GitHub Actions`가 매일 GraphQL로 기여도를 읽어 SVG 트리를 생성, 4가지 애니메이션 테마(default · space · winter · sky). `TypeScript`. → [README](https://github.com/chromeheartz/merry-gitmas/blob/main/README.md)
+* **[dev-stats](https://gist.github.com/chromeheartz/ae96c45480f1675a5cec5d32964920bd)** — 내 개발 통계를 RPG 캐릭터 카드로 시각화한 Gist (`Lv.35 Polyglot Sage 🧙`). 커밋 수 · 사용 언어 · 연속 커밋 스트릭을 매일 자동 갱신.
