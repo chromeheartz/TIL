@@ -66,6 +66,7 @@
 * [DRY — 잘못된 추상화의 흔한 원인](https://github.com/chromeheartz/TIL/blob/main/frontend/etc/01.DRY%20%E2%80%94%20%EC%9E%98%EB%AA%BB%EB%90%9C%20%EC%B6%94%EC%83%81%ED%99%94%EC%9D%98%20%ED%9D%94%ED%95%9C%20%EC%9B%90%EC%9D%B8.md)
 * [merge vs rebase vs squash](https://github.com/chromeheartz/TIL/blob/main/frontend/etc/02.merge%20vs%20rebase%20vs%20squash.md)
 * [SSR과 CSR의 차이](https://github.com/chromeheartz/TIL/blob/main/frontend/etc/03.SSR%EA%B3%BC%20CSR%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
+* [GitFlow Branch 전략](https://github.com/chromeheartz/TIL/blob/main/frontend/etc/04.Gitflow%20%EB%B8%8C%EB%9E%9C%EC%B9%98%20%EC%A0%84%EB%9E%B5.md)
 
 <br>
 
