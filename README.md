@@ -65,6 +65,8 @@
 
 * [프론트엔드의 MSA, 마이크로 프론트엔드(MFE)](https://github.com/chromeheartz/TIL/blob/main/frontend/architecture/01.%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%9D%98%20MSA%2C%20%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%20%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C(MFE).md)
 * [코드베이스를 수직으로 쌓아라 (The Vertical Codebase)](https://github.com/chromeheartz/TIL/blob/main/frontend/architecture/02.%EC%BD%94%EB%93%9C%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%A5%BC%20%EC%88%98%EC%A7%81%EC%9C%BC%EB%A1%9C%20%EC%8C%93%EC%95%84%EB%9D%BC%20(The%20Vertical%20Codebase).md) 
+* [프론트엔드 아키텍처 시각화하기](https://github.com/chromeheartz/TIL/blob/main/frontend/architecture/03.%ED%94%84%EB%9F%B0%ED%8A%B8%EC%97%94%EB%93%9C%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%EC%8B%9C%EA%B0%81%ED%99%94%ED%95%98%EA%B8%B0.md) 
+
 
 
 ### ETC
