@@ -27,19 +27,19 @@
 
 ### JavaScript
 
-* [JavaScript의 Date는 얼마나 잘못될 수있는가](https://github.com/chromeheartz/TIL/blob/main/frontend/javaScript/01.JavaScript%EC%9D%98%20Date%EB%8A%94%20%EC%96%BC%EB%A7%88%EB%82%98%20%EC%9E%98%EB%AA%BB%EB%90%A0%20%EC%88%98%EC%9E%88%EB%8A%94%EA%B0%80.md)
-* [ECMAScript 2025에서 뭐가 새로 생겼나](https://github.com/chromeheartz/TIL/blob/main/frontend/javaScript/02.ECMAScript%202025%EC%97%90%EC%84%9C%20%EB%AD%90%EA%B0%80%20%EC%83%88%EB%A1%9C%20%EC%83%9D%EA%B2%BC%EB%82%98.md)
-* [JS의 명시적 리소스 관리 - using키워드](https://github.com/chromeheartz/TIL/blob/main/frontend/javaScript/03.JS%EC%9D%98%20%EB%AA%85%EC%8B%9C%EC%A0%81%20%EB%A6%AC%EC%86%8C%EC%8A%A4%20%EA%B4%80%EB%A6%AC%20-%20using%ED%82%A4%EC%9B%8C%EB%93%9C.md)
-* [JavaScript는 어떻게 실행될까?](https://github.com/chromeheartz/TIL/blob/main/frontend/javaScript/04.JavaScript%EB%8A%94%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EC%8B%A4%ED%96%89%EB%90%A0%EA%B9%8C%3F.md)
-* [JavaScript에서 Promise 취소하기](https://github.com/chromeheartz/TIL/blob/main/frontend/javaScript/05.JavaScript%EC%97%90%EC%84%9C%20Promise%20%EC%B7%A8%EC%86%8C%ED%95%98%EA%B8%B0.md)
-* [CommonJS가 자바스크립트를 해치고 있다](https://github.com/chromeheartz/TIL/blob/main/frontend/javaScript/06.CommonJS%EA%B0%80%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A5%BC%20%ED%95%B4%EC%B9%98%EA%B3%A0%20%EC%9E%88%EB%8B%A4.md)
-* [AxiosVSFetch](https://github.com/chromeheartz/TIL/blob/main/frontend/javaScript/07.AxiosVSFetch.md)
-* [왜 자바스크립트에서 효율적인 하이드레이션은 그렇게 어려운가](https://github.com/chromeheartz/TIL/blob/main/frontend/javaScript/08.%EC%99%9C%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C%20%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9D%B8%20%ED%95%98%EC%9D%B4%EB%93%9C%EB%A0%88%EC%9D%B4%EC%85%98%EC%9D%80%20%EA%B7%B8%EB%A0%87%EA%B2%8C%20%EC%96%B4%EB%A0%A4%EC%9A%B4%EA%B0%80.md)
-* [BlobAPI](https://github.com/chromeheartz/TIL/blob/main/frontend/JavaScript/09.BlobAPI.md)
-* [현실 프론트엔드에서 쓰는 자바스크립트 자료구조 (React 예시)](https://github.com/chromeheartz/TIL/blob/main/frontend/javaScript/10.%ED%98%84%EC%8B%A4%EC%97%90%EC%84%9C%20%EC%93%B0%EB%8A%94%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md)
-* [자바스크립트 모듈에서 default export는 끔찍하다](https://github.com/chromeheartz/TIL/blob/main/frontend/javaScript/11.%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EB%AA%A8%EB%93%88%EC%97%90%EC%84%9C%20default%20export%EB%8A%94%20%EB%81%94%EC%B0%8D%ED%95%98%EB%8B%A4.md)
-* [DOM 깊이가 렌더링 성능에 미치는 영향](https://github.com/chromeheartz/TIL/blob/main/frontend/javaScript/12.DOM%20%EA%B9%8A%EC%9D%B4%EA%B0%80%20%EB%A0%8C%EB%8D%94%EB%A7%81%20%EC%84%B1%EB%8A%A5%EC%97%90%20%EB%AF%B8%EC%B9%98%EB%8A%94%20%EC%98%81%ED%96%A5.md)
-* [TSRX](https://github.com/chromeheartz/TIL/blob/main/frontend/ㅓavaScript/13.TSRX.md)
+* [JavaScript의 Date는 얼마나 잘못될 수있는가](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/01.JavaScript%EC%9D%98%20Date%EB%8A%94%20%EC%96%BC%EB%A7%88%EB%82%98%20%EC%9E%98%EB%AA%BB%EB%90%A0%20%EC%88%98%EC%9E%88%EB%8A%94%EA%B0%80.md)
+* [ECMAScript 2025에서 뭐가 새로 생겼나](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/02.ECMAScript%202025%EC%97%90%EC%84%9C%20%EB%AD%90%EA%B0%80%20%EC%83%88%EB%A1%9C%20%EC%83%9D%EA%B2%BC%EB%82%98.md)
+* [JS의 명시적 리소스 관리 - using키워드](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/03.JS%EC%9D%98%20%EB%AA%85%EC%8B%9C%EC%A0%81%20%EB%A6%AC%EC%86%8C%EC%8A%A4%20%EA%B4%80%EB%A6%AC%20-%20using%ED%82%A4%EC%9B%8C%EB%93%9C.md)
+* [JavaScript는 어떻게 실행될까?](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/04.JavaScript%EB%8A%94%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EC%8B%A4%ED%96%89%EB%90%A0%EA%B9%8C%3F.md)
+* [JavaScript에서 Promise 취소하기](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/05.JavaScript%EC%97%90%EC%84%9C%20Promise%20%EC%B7%A8%EC%86%8C%ED%95%98%EA%B8%B0.md)
+* [CommonJS가 자바스크립트를 해치고 있다](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/06.CommonJS%EA%B0%80%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A5%BC%20%ED%95%B4%EC%B9%98%EA%B3%A0%20%EC%9E%88%EB%8B%A4.md)
+* [AxiosVSFetch](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/07.AxiosVSFetch.md)
+* [왜 자바스크립트에서 효율적인 하이드레이션은 그렇게 어려운가](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/08.%EC%99%9C%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%EC%84%9C%20%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9D%B8%20%ED%95%98%EC%9D%B4%EB%93%9C%EB%A0%88%EC%9D%B4%EC%85%98%EC%9D%80%20%EA%B7%B8%EB%A0%87%EA%B2%8C%20%EC%96%B4%EB%A0%A4%EC%9A%B4%EA%B0%80.md)
+* [BlobAPI](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/09.BlobAPI.md)
+* [현실 프론트엔드에서 쓰는 자바스크립트 자료구조 (React 예시)](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/10.%ED%98%84%EC%8B%A4%EC%97%90%EC%84%9C%20%EC%93%B0%EB%8A%94%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md)
+* [자바스크립트 모듈에서 default export는 끔찍하다](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/11.%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EB%AA%A8%EB%93%88%EC%97%90%EC%84%9C%20default%20export%EB%8A%94%20%EB%81%94%EC%B0%8D%ED%95%98%EB%8B%A4.md)
+* [DOM 깊이가 렌더링 성능에 미치는 영향](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/12.DOM%20%EA%B9%8A%EC%9D%B4%EA%B0%80%20%EB%A0%8C%EB%8D%94%EB%A7%81%20%EC%84%B1%EB%8A%A5%EC%97%90%20%EB%AF%B8%EC%B9%98%EB%8A%94%20%EC%98%81%ED%96%A5.md)
+* [TSRX](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/13.TSRX.md)
 
 
 
