@@ -52,6 +52,7 @@
 * [새 리액트 문서가 권장하는 9가지 코드 스타일](https://github.com/chromeheartz/TIL/blob/main/frontend/react/05.%EC%83%88%20%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EB%AC%B8%EC%84%9C%EA%B0%80%20%EA%B6%8C%EC%9E%A5%ED%95%98%EB%8A%94%209%EA%B0%80%EC%A7%80%20%EC%BD%94%EB%93%9C%20%EC%8A%A4%ED%83%80%EC%9D%BC.md)
 * [React 접근성, 자주 하는 실수와 고치는 법](https://github.com/chromeheartz/TIL/blob/main/frontend/react/06.React%20%EC%A0%91%EA%B7%BC%EC%84%B1%2C%20%EC%9E%90%EC%A3%BC%20%ED%95%98%EB%8A%94%20%EC%8B%A4%EC%88%98%EC%99%80%20%EA%B3%A0%EC%B9%98%EB%8A%94%20%EB%B2%95.md)
 * [useState 지옥 탈출하기 — useReducer](https://github.com/chromeheartz/TIL/blob/main/frontend/react/07.useState%20%EC%A7%80%EC%98%A5%20%ED%83%88%EC%B6%9C%ED%95%98%EA%B8%B0%20%E2%80%94%20useReducer.md)
+* [React는 어떻게 UI를 순서 없이(out-of-order) 스트리밍하면서도 순서를 지키나](https://github.com/chromeheartz/TIL/blob/main/frontend/react/08.React%EB%8A%94%20%EC%96%B4%EB%96%BB%EA%B2%8C%20UI%EB%A5%BC%20%EC%88%9C%EC%84%9C%20%EC%97%86%EC%9D%B4(out-of-order)%20%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D%ED%95%98%EB%A9%B4%EC%84%9C%EB%8F%84%20%EC%88%9C%EC%84%9C%EB%A5%BC%20%EC%A7%80%ED%82%A4%EB%82%98.md)
 
 ### CSS
 
