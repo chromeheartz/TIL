@@ -54,6 +54,7 @@
 * [useState 지옥 탈출하기 — useReducer](https://github.com/chromeheartz/TIL/blob/main/frontend/react/07.useState%20%EC%A7%80%EC%98%A5%20%ED%83%88%EC%B6%9C%ED%95%98%EA%B8%B0%20%E2%80%94%20useReducer.md)
 * [React는 어떻게 UI를 순서 없이(out-of-order) 스트리밍하면서도 순서를 지키나](https://github.com/chromeheartz/TIL/blob/main/frontend/react/08.React%EB%8A%94%20%EC%96%B4%EB%96%BB%EA%B2%8C%20UI%EB%A5%BC%20%EC%88%9C%EC%84%9C%20%EC%97%86%EC%9D%B4(out-of-order)%20%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D%ED%95%98%EB%A9%B4%EC%84%9C%EB%8F%84%20%EC%88%9C%EC%84%9C%EB%A5%BC%20%EC%A7%80%ED%82%A4%EB%82%98.md)
 * [리액트 동시성 이해하기](https://github.com/chromeheartz/TIL/blob/main/frontend/react/09.%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EB%8F%99%EC%8B%9C%EC%84%B1%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.md)
+* [명령형(Imperative) vs 선언형(Declarative)](https://github.com/chromeheartz/TIL/blob/main/frontend/react/10.%EB%AA%85%EB%A0%B9%ED%98%95(Imperative)%20vs%20%EC%84%A0%EC%96%B8%ED%98%95(Declarative).md)
 
 ### CSS
 
