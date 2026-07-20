@@ -56,6 +56,7 @@
 * [리액트 동시성 이해하기](https://github.com/chromeheartz/TIL/blob/main/frontend/react/09.%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EB%8F%99%EC%8B%9C%EC%84%B1%20%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0.md)
 * [명령형(Imperative) vs 선언형(Declarative)](https://github.com/chromeheartz/TIL/blob/main/frontend/react/10.%EB%AA%85%EB%A0%B9%ED%98%95(Imperative)%20vs%20%EC%84%A0%EC%96%B8%ED%98%95(Declarative).md)
 * [잘 알려진 UI 패턴으로 리액트 앱 모듈화하기](https://github.com/chromeheartz/TIL/blob/main/frontend/react/11.%EC%9E%98%20%EC%95%8C%EB%A0%A4%EC%A7%84%20UI%20%ED%8C%A8%ED%84%B4%EC%9C%BC%EB%A1%9C%20%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EC%95%B1%20%EB%AA%A8%EB%93%88%ED%99%94%ED%95%98%EA%B8%B0.md)
+* [리액트 컴파일러와 리액트 19, 이제 메모이제이션 안 해도 되나요?](https://github.com/chromeheartz/TIL/blob/main/frontend/react/12.%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC%EC%99%80%20%EB%A6%AC%EC%95%A1%ED%8A%B8%2019%2C%20%EC%9D%B4%EC%A0%9C%20%EB%A9%94%EB%AA%A8%EC%9D%B4%EC%A0%9C%EC%9D%B4%EC%85%98%20%EC%95%88%20%ED%95%B4%EB%8F%84%20%EB%90%98%EB%82%98%EC%9A%94%3F.md)
 
 ### CSS
 
