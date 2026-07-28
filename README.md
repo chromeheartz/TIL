@@ -65,6 +65,7 @@
 
 * [다크 모드를 넘어서: CSS 필터로 사용자가 UI를 직접 조정하게 하기](https://github.com/chromeheartz/TIL/blob/main/frontend/css/01.%EB%8B%A4%ED%81%AC%20%EB%AA%A8%EB%93%9C%EB%A5%BC%20%EB%84%98%EC%96%B4%EC%84%9C%3A%20CSS%20%ED%95%84%ED%84%B0%EB%A1%9C%20%EC%82%AC%EC%9A%A9%EC%9E%90%EA%B0%80%20UI%EB%A5%BC%20%EC%A7%81%EC%A0%91%20%EC%A1%B0%EC%A0%95%ED%95%98%EA%B2%8C%20%ED%95%98%EA%B8%B0.md)
 * [브레이크포인트 없이 반응형 UI 만들기](https://github.com/chromeheartz/TIL/blob/main/frontend/css/02.%EB%B8%8C%EB%A0%88%EC%9D%B4%ED%81%AC%ED%8F%AC%EC%9D%B8%ED%8A%B8%20%EC%97%86%EC%9D%B4%20%EB%B0%98%EC%9D%91%ED%98%95%20UI%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
+* [Tailwind을 떠나, CSS를 구조화하는 법을 배우다](https://github.com/chromeheartz/TIL/blob/main/frontend/css/03.Tailwind%EC%9D%84%20%EB%96%A0%EB%82%98%2C%20CSS%EB%A5%BC%20%EA%B5%AC%EC%A1%B0%ED%99%94%ED%95%98%EB%8A%94%20%EB%B2%95%EC%9D%84%20%EB%B0%B0%EC%9A%B0%EB%8B%A4.md)
 
 ### Browser
 
