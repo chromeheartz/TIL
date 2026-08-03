@@ -68,6 +68,7 @@
 * [Tailwind을 떠나, CSS를 구조화하는 법을 배우다](https://github.com/chromeheartz/TIL/blob/main/frontend/html-css/03.Tailwind%EC%9D%84%20%EB%96%A0%EB%82%98%2C%20CSS%EB%A5%BC%20%EA%B5%AC%EC%A1%B0%ED%99%94%ED%95%98%EB%8A%94%20%EB%B2%95%EC%9D%84%20%EB%B0%B0%EC%9A%B0%EB%8B%A4.md)
 * [그것 때문에 자바스크립트까지 쓸 필요는 없다](https://github.com/chromeheartz/TIL/blob/main/frontend/html-css/04.%EA%B7%B8%EA%B2%83%20%EB%95%8C%EB%AC%B8%EC%97%90%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EA%B9%8C%EC%A7%80%20%EC%93%B8%20%ED%95%84%EC%9A%94%EB%8A%94%20%EC%97%86%EB%8B%A4.md)
 * [컴포넌트가 WCAG를 "준수"할 수 있을까?](https://github.com/chromeheartz/TIL/blob/main/frontend/html-css/05.%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EA%B0%80%20WCAG%EB%A5%BC%20%22%EC%A4%80%EC%88%98%22%ED%95%A0%20%EC%88%98%20%EC%9E%88%EC%9D%84%EA%B9%8C%3F.md)
+* [이미지 최적화 완전 가이드](https://github.com/chromeheartz/TIL/blob/main/frontend/html-css/06.%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%B5%9C%EC%A0%81%ED%99%94%20%EC%99%84%EC%A0%84%20%EA%B0%80%EC%9D%B4%EB%93%9C.md)
 
 ### Browser
 
