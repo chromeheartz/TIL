@@ -46,6 +46,7 @@
 * [타입스크립트 컴파일러는 어떻게 컴파일하나](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/17.%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC%EB%8A%94%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%ED%95%98%EB%82%98.md)
 * [자바스크립트에 타입 구문 도입 제안 (Types as Comments)](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/18.%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%97%90%20%ED%83%80%EC%9E%85%20%EA%B5%AC%EB%AC%B8%20%EB%8F%84%EC%9E%85%20%EC%A0%9C%EC%95%88.md)
 * [중첩 프로미스(nested Promise)는 언제 쓸모가 있나](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/19.%EC%A4%91%EC%B2%A9%20%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4(nested%20Promise)%EB%8A%94%20%EC%96%B8%EC%A0%9C%20%EC%93%B8%EB%AA%A8%EA%B0%80%20%EC%9E%88%EB%82%98.md)
+* [자바스크립트의 진짜 새로운 변화 (ES2025 / ES2026)](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/20.%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98%20%EC%A7%84%EC%A7%9C%20%EC%83%88%EB%A1%9C%EC%9A%B4%20%EB%B3%80%ED%99%94%20(ES2025%26ES2026).md)
 
 ### React
 
