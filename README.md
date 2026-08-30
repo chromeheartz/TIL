@@ -67,7 +67,7 @@
 * [리액트 애플리케이션의 보안](https://github.com/chromeheartz/TIL/blob/main/frontend/react/14.%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EC%9D%98%20%EB%B3%B4%EC%95%88.md)
 * [Record & Tuple — 불변성을 가진 자바스크립트 자료구조](https://github.com/chromeheartz/TIL/blob/main/frontend/react/15.Record%20%26%20Tuple%20%E2%80%94%20%EB%B6%88%EB%B3%80%EC%84%B1%EC%9D%84%20%EA%B0%80%EC%A7%84%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md)
 * [Remix는 무엇이고 Next.js와 어떻게 다른가](https://github.com/chromeheartz/TIL/blob/main/frontend/react/16.Remix%EB%8A%94%20%EB%AC%B4%EC%97%87%EC%9D%B4%EA%B3%A0%20Next.js%EC%99%80%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EB%8B%A4%EB%A5%B8%EA%B0%80.md)
-
+* [쿼리 캐시에 미리 데이터 채워 넣기 (React Query)](https://github.com/chromeheartz/TIL/blob/main/frontend/react/17.%EC%BF%BC%EB%A6%AC%20%EC%BA%90%EC%8B%9C%EC%97%90%20%EB%AF%B8%EB%A6%AC%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B1%84%EC%9B%8C%20%EB%84%A3%EA%B8%B0.md)
 
 ### Html-Css
 
