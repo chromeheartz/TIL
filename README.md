@@ -70,6 +70,7 @@
 * [쿼리 캐시에 미리 데이터 채워 넣기 (React Query)](https://github.com/chromeheartz/TIL/blob/main/frontend/react/17.%EC%BF%BC%EB%A6%AC%20%EC%BA%90%EC%8B%9C%EC%97%90%20%EB%AF%B8%EB%A6%AC%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%B1%84%EC%9B%8C%20%EB%84%A3%EA%B8%B0.md)
 * [TanStack Router](https://github.com/chromeheartz/TIL/blob/main/frontend/react/18.TanStack%20Router%20%EC%86%8C%EA%B0%9C.md)
 * [useEvent](https://github.com/chromeheartz/TIL/blob/main/frontend/react/19.useEvent.md)
+* [리액트는 언제 컴포넌트를 렌더링하나](https://github.com/chromeheartz/TIL/blob/main/frontend/react/20.%EB%A6%AC%EC%95%A1%ED%8A%B8%EB%8A%94%20%EC%96%B8%EC%A0%9C%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EB%A5%BC%20%EB%A0%8C%EB%8D%94%EB%A7%81%ED%95%98%EB%82%98.md)
 
 ### Html-Css
 
