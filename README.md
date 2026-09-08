@@ -102,6 +102,7 @@
 * [merge vs rebase vs squash](https://github.com/chromeheartz/TIL/blob/main/frontend/etc/02.merge%20vs%20rebase%20vs%20squash.md)
 * [SSR과 CSR의 차이](https://github.com/chromeheartz/TIL/blob/main/frontend/etc/03.SSR%EA%B3%BC%20CSR%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 * [GitFlow Branch 전략](https://github.com/chromeheartz/TIL/blob/main/frontend/etc/04.Gitflow%20%EB%B8%8C%EB%9E%9C%EC%B9%98%20%EC%A0%84%EB%9E%B5.md)
+* [이제 웹팩과 작별할 때일까?](https://github.com/chromeheartz/TIL/blob/main/frontend/etc/05.%EC%9D%B4%EC%A0%9C%20%EC%9B%B9%ED%8C%A9%EA%B3%BC%20%EC%9E%91%EB%B3%84%ED%95%A0%20%EB%95%8C%EC%9D%BC%EA%B9%8C%3F.md)
 
 <br>
 
