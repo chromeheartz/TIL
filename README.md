@@ -48,6 +48,7 @@
 * [중첩 프로미스(nested Promise)는 언제 쓸모가 있나](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/19.%EC%A4%91%EC%B2%A9%20%ED%94%84%EB%A1%9C%EB%AF%B8%EC%8A%A4(nested%20Promise)%EB%8A%94%20%EC%96%B8%EC%A0%9C%20%EC%93%B8%EB%AA%A8%EA%B0%80%20%EC%9E%88%EB%82%98.md)
 * [자바스크립트의 진짜 새로운 변화 (ES2025 / ES2026)](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/20.%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98%20%EC%A7%84%EC%A7%9C%20%EC%83%88%EB%A1%9C%EC%9A%B4%20%EB%B3%80%ED%99%94%20(ES2025%26ES2026).md)
 * [NEXT.JS의 이미지 최적화는 어떻게 동작하는가?](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/21.NEXT.JS%EC%9D%98%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%B5%9C%EC%A0%81%ED%99%94%EB%8A%94%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EB%8F%99%EC%9E%91%ED%95%98%EB%8A%94%EA%B0%80%3F.md)
+* [베이스라인으로 불필요한 JS 걷어내기](https://github.com/chromeheartz/TIL/blob/main/frontend/javascript/22.%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%9D%BC%EC%9D%B8%EC%9C%BC%EB%A1%9C%20%EB%B6%88%ED%95%84%EC%9A%94%ED%95%9C%20JS%20%EA%B1%B7%EC%96%B4%EB%82%B4%EA%B8%B0.md)
 
 ### React
 
