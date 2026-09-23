@@ -92,6 +92,7 @@
 * [HTTP/3 — 차세대 웹 프로토콜에 대해 알아야 할 모든 것](https://github.com/chromeheartz/TIL/blob/main/frontend/browser/03.HTTP3%20%E2%80%94%20%EC%B0%A8%EC%84%B8%EB%8C%80%20%EC%9B%B9%20%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%95%8C%EC%95%84%EC%95%BC%20%ED%95%A0%20%EB%AA%A8%EB%93%A0%20%EA%B2%83.md)
 * [새로운 HTTP 메서드 QUERY](https://github.com/chromeheartz/TIL/blob/main/frontend/browser/04.%EC%83%88%EB%A1%9C%EC%9A%B4%20HTTP%20%EB%A9%94%EC%84%9C%EB%93%9C%20QUERY.md)
 * [웹 개발자를 위한 Safari MCP 서버](https://github.com/chromeheartz/TIL/blob/main/frontend/browser/05.%EC%9B%B9%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20Safari%20MCP%20%EC%84%9C%EB%B2%84.md)
+* [프로그레시브 이미지 렌더링, 포맷별 현실](https://github.com/chromeheartz/TIL/blob/main/frontend/browser/06.%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%A0%8C%EB%8D%94%EB%A7%81%2C%20%ED%8F%AC%EB%A7%B7%EB%B3%84%20%ED%98%84%EC%8B%A4.md)
 
 
 ### Architecture
