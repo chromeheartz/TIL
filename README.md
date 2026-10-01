@@ -87,6 +87,7 @@
 * [이미지 최적화 완전 가이드](https://github.com/chromeheartz/TIL/blob/main/frontend/html-css/06.%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%B5%9C%EC%A0%81%ED%99%94%20%EC%99%84%EC%A0%84%20%EA%B0%80%EC%9D%B4%EB%93%9C.md)
 * [Vanilla Extract란 무엇인가](https://github.com/chromeheartz/TIL/blob/main/frontend/html-css/07.Vanilla%20Extract%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.md)
 * [HTML <usermedia> 요소](https://github.com/chromeheartz/TIL/blob/main/frontend/html-css/08.HTML%20%3Cusermedia%3E%EC%9A%94%EC%86%8C.md)
+* [Tailwind를 걷어내면서 배운 CSS 구조화](https://github.com/chromeheartz/TIL/blob/main/frontend/html-css/09.Tailwind%EB%A5%BC%20%EA%B1%B7%EC%96%B4%EB%82%B4%EB%A9%B4%EC%84%9C%20%EB%B0%B0%EC%9A%B4%20CSS%20%EA%B5%AC%EC%A1%B0%ED%99%94.md)
 
 ### Browser
 
