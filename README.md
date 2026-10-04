@@ -76,6 +76,7 @@
 * [리액트는 언제 컴포넌트를 렌더링하나](https://github.com/chromeheartz/TIL/blob/main/frontend/react/20.%EB%A6%AC%EC%95%A1%ED%8A%B8%EB%8A%94%20%EC%96%B8%EC%A0%9C%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EB%A5%BC%20%EB%A0%8C%EB%8D%94%EB%A7%81%ED%95%98%EB%82%98.md)
 * [리액트 컴파일러 18개월, 결국 남은 건 벤치마크가 아니었다](https://github.com/chromeheartz/TIL/blob/main/frontend/react/21.%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC%2018%EA%B0%9C%EC%9B%94%2C%20%EA%B2%B0%EA%B5%AD%20%EB%82%A8%EC%9D%80%20%EA%B1%B4%20%EB%B2%A4%EC%B9%98%EB%A7%88%ED%81%AC%EA%B0%80%20%EC%95%84%EB%8B%88%EC%97%88%EB%8B%A4.md)
 * [startTransition, 언제 진짜 필요한가](https://github.com/chromeheartz/TIL/blob/main/frontend/react/22.startTransition%2C%20%EC%96%B8%EC%A0%9C%20%EC%A7%84%EC%A7%9C%20%ED%95%84%EC%9A%94%ED%95%9C%EA%B0%80.md)
+* [참조 안정성을 타입으로 만들기](https://github.com/chromeheartz/TIL/blob/main/frontend/react/23.%EC%B0%B8%EC%A1%B0%20%EC%95%88%EC%A0%95%EC%84%B1%EC%9D%84%20%ED%83%80%EC%9E%85%EC%9C%BC%EB%A1%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
 
 ### Html-Css
 
