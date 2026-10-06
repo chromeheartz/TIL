@@ -116,6 +116,7 @@
 * [GitFlow Branch 전략](https://github.com/chromeheartz/TIL/blob/main/frontend/etc/04.Gitflow%20%EB%B8%8C%EB%9E%9C%EC%B9%98%20%EC%A0%84%EB%9E%B5.md)
 * [이제 웹팩과 작별할 때일까?](https://github.com/chromeheartz/TIL/blob/main/frontend/etc/05.%EC%9D%B4%EC%A0%9C%20%EC%9B%B9%ED%8C%A9%EA%B3%BC%20%EC%9E%91%EB%B3%84%ED%95%A0%20%EB%95%8C%EC%9D%BC%EA%B9%8C%3F.md)
 * [환경변수에 시크릿을 저장하지 않고 쓰는 더 나은 방법](https://github.com/chromeheartz/TIL/blob/main/frontend/etc/06.%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98%EC%97%90%20%EC%8B%9C%ED%81%AC%EB%A6%BF%EC%9D%84%20%EC%A0%80%EC%9E%A5%ED%95%98%EC%A7%80%20%EC%95%8A%EA%B3%A0%20%EC%93%B0%EB%8A%94%20%EB%8D%94%20%EB%82%98%EC%9D%80%20%EB%B0%A9%EB%B2%95.md)
+* [게으른 개발자를 위한 자동화 도구 10가지](https://github.com/chromeheartz/TIL/blob/main/frontend/etc/07.%EA%B2%8C%EC%9C%BC%EB%A5%B8%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%EC%9E%90%EB%8F%99%ED%99%94%20%EB%8F%84%EA%B5%AC%2010%EA%B0%80%EC%A7%80.md)
 
 <br>
 
