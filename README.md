@@ -89,6 +89,7 @@
 * [Vanilla Extract란 무엇인가](https://github.com/chromeheartz/TIL/blob/main/frontend/html-css/07.Vanilla%20Extract%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.md)
 * [HTML <usermedia> 요소](https://github.com/chromeheartz/TIL/blob/main/frontend/html-css/08.HTML%20%3Cusermedia%3E%EC%9A%94%EC%86%8C.md)
 * [Tailwind를 걷어내면서 배운 CSS 구조화](https://github.com/chromeheartz/TIL/blob/main/frontend/html-css/09.Tailwind%EB%A5%BC%20%EA%B1%B7%EC%96%B4%EB%82%B4%EB%A9%B4%EC%84%9C%20%EB%B0%B0%EC%9A%B4%20CSS%20%EA%B5%AC%EC%A1%B0%ED%99%94.md)
+* [인터랙티브 요소, 포커스 가능, 탭 이동 가능은 다 다르다](https://github.com/chromeheartz/TIL/blob/main/frontend/html-css/10.%EC%9D%B8%ED%84%B0%EB%9E%99%ED%8B%B0%EB%B8%8C%20%EC%9A%94%EC%86%8C%2C%20%ED%8F%AC%EC%BB%A4%EC%8A%A4%20%EA%B0%80%EB%8A%A5%2C%20%ED%83%AD%20%EC%9D%B4%EB%8F%99%20%EA%B0%80%EB%8A%A5%EC%9D%80%20%EB%8B%A4%20%EB%8B%A4%EB%A5%B4%EB%8B%A4.md)
 
 ### Browser
 
