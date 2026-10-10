@@ -99,6 +99,7 @@
 * [새로운 HTTP 메서드 QUERY](https://github.com/chromeheartz/TIL/blob/main/frontend/browser/04.%EC%83%88%EB%A1%9C%EC%9A%B4%20HTTP%20%EB%A9%94%EC%84%9C%EB%93%9C%20QUERY.md)
 * [웹 개발자를 위한 Safari MCP 서버](https://github.com/chromeheartz/TIL/blob/main/frontend/browser/05.%EC%9B%B9%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20Safari%20MCP%20%EC%84%9C%EB%B2%84.md)
 * [프로그레시브 이미지 렌더링, 포맷별 현실](https://github.com/chromeheartz/TIL/blob/main/frontend/browser/06.%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%A0%8C%EB%8D%94%EB%A7%81%2C%20%ED%8F%AC%EB%A7%B7%EB%B3%84%20%ED%98%84%EC%8B%A4.md)
+* [innerHTML 대신 setHTML — 브라우저 기본 XSS 방어](https://github.com/chromeheartz/TIL/blob/main/frontend/browser/07.innerHTML%20%EB%8C%80%EC%8B%A0%20setHTML%20%E2%80%94%20%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EA%B8%B0%EB%B3%B8%20XSS%20%EB%B0%A9%EC%96%B4.md)
 
 
 ### Architecture
