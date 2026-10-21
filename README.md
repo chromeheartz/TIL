@@ -127,6 +127,7 @@
 
 * [AEO — AI 에이전트를 위한 문서 최적화](https://github.com/chromeheartz/TIL/blob/main/frontend/essays/01.AEO%20-%20AI%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%EB%AC%B8%EC%84%9C%20%EC%B5%9C%EC%A0%81%ED%99%94.md)
 * [코드 리뷰를 잘하면 AI 에이전트도 잘 쓴다](https://github.com/chromeheartz/TIL/blob/main/frontend/essays/02.%EC%BD%94%EB%93%9C%20%EB%A6%AC%EB%B7%B0%EB%A5%BC%20%EC%9E%98%ED%95%98%EB%A9%B4%20AI%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EB%8F%84%20%EC%9E%98%20%EC%93%B4%EB%8B%A4.md)
+* [페이지는 사라지고 컴포넌트가 남는다](https://github.com/chromeheartz/TIL/blob/main/frontend/essays/03.%ED%8E%98%EC%9D%B4%EC%A7%80%EB%8A%94%20%EC%82%AC%EB%9D%BC%EC%A7%80%EA%B3%A0%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EA%B0%80%20%EB%82%A8%EB%8A%94%EB%8B%A4.md)
 
 
 <br>
