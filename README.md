@@ -104,6 +104,7 @@
 * [프로그레시브 이미지 렌더링, 포맷별 현실](https://github.com/chromeheartz/TIL/blob/main/frontend/browser/06.%ED%94%84%EB%A1%9C%EA%B7%B8%EB%A0%88%EC%8B%9C%EB%B8%8C%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%A0%8C%EB%8D%94%EB%A7%81%2C%20%ED%8F%AC%EB%A7%B7%EB%B3%84%20%ED%98%84%EC%8B%A4.md)
 * [innerHTML 대신 setHTML — 브라우저 기본 XSS 방어](https://github.com/chromeheartz/TIL/blob/main/frontend/browser/07.innerHTML%20%EB%8C%80%EC%8B%A0%20setHTML%20%E2%80%94%20%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EA%B8%B0%EB%B3%B8%20XSS%20%EB%B0%A9%EC%96%B4.md)
 * [극한의 서버 사이드 렌더링 (XSSR)](https://github.com/chromeheartz/TIL/blob/main/frontend/browser/08.%EA%B7%B9%ED%95%9C%EC%9D%98%20%EC%84%9C%EB%B2%84%20%EC%82%AC%EC%9D%B4%EB%93%9C%20%EB%A0%8C%EB%8D%94%EB%A7%81%20(XSSR).md)
+* [SSE vs WebSocket vs 폴링, 프론트에서 실시간 전송 고르기](https://github.com/chromeheartz/TIL/blob/main/frontend/browser/09.SSE%20vs%20WebSocket%20vs%20%ED%8F%B4%EB%A7%81%2C%20%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%90%EC%84%9C%20%EC%8B%A4%EC%8B%9C%EA%B0%84%20%EC%A0%84%EC%86%A1%20%EA%B3%A0%EB%A5%B4%EA%B8%B0.md)
 
 
 ### Architecture
