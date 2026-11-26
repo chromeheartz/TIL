@@ -142,6 +142,7 @@
 * ["상태 관리" 라이브러리는 상태를 관리하지 않는다](https://github.com/chromeheartz/TIL/blob/main/frontend/essays/06.%22%EC%83%81%ED%83%9C%20%EA%B4%80%EB%A6%AC%22%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%EB%8A%94%20%EC%83%81%ED%83%9C%EB%A5%BC%20%EA%B4%80%EB%A6%AC%ED%95%98%EC%A7%80%20%EC%95%8A%EB%8A%94%EB%8B%A4.md)
 * [async가 약속한 것, 그리고 실제로 준 것](https://github.com/chromeheartz/TIL/blob/main/frontend/essays/07.async%EA%B0%80%20%EC%95%BD%EC%86%8D%ED%95%9C%20%EA%B2%83%2C%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20%EC%8B%A4%EC%A0%9C%EB%A1%9C%20%EC%A4%80%20%EA%B2%83.md)
 * [AI가 프론트엔드에 약한 이유](https://github.com/chromeheartz/TIL/blob/main/frontend/essays/08.AI%EA%B0%80%20%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%97%90%20%EC%95%BD%ED%95%9C%20%EC%9D%B4%EC%9C%A0.md)
+* [접근성과 봇이 절반인 인터넷](https://github.com/chromeheartz/TIL/blob/main/frontend/essays/09.%EC%A0%91%EA%B7%BC%EC%84%B1%EA%B3%BC%20%EB%B4%87%EC%9D%B4%20%EC%A0%88%EB%B0%98%EC%9D%B8%20%EC%9D%B8%ED%84%B0%EB%84%B7.md)
 
 
 <br>
